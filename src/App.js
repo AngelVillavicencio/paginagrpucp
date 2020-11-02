@@ -1,5 +1,7 @@
+import Inicio from "./pages/Inicio.js";
+import './App.css'
 const App = () => {
-  return <div>gaa</div>;
+  return <Inicio></Inicio>;
 };
 
 export default App;
