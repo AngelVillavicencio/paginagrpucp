@@ -22,13 +22,14 @@ class Inicio extends Component {
 
             </section>
             <section className="container-vision">
-
+              <h2>Misión</h2>
+              <p>Generar la investigación y participación de proyectos en alumnos de la universidad y trabajo en conjunto con la universidad.</p>
         
 
 
             </section>
             <section className="container-compromisos">
-
+            
         
 
 
