@@ -17,7 +17,7 @@ class Inicio extends Component {
 
             <section className="container-mision">
 
-
+              <h2> GAAAAAA</h2>
 
 
             </section>
