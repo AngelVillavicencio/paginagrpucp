@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar'
 import './Inicio.css';
 class Inicio extends Component {
@@ -33,7 +34,7 @@ class Inicio extends Component {
 
 
             </section>
-
+            <Footer></Footer>
         </div>
       );
     }
