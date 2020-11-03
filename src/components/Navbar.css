@@ -1,0 +1,30 @@
+.background-Navbar {
+  background-color: #00171f;
+  padding: 0;
+  min-height: 94px;
+}
+
+.text-font-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  letter-spacing: 0px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.text-font-list {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  margin-left: 3px;
+}
+.logo {
+  width: 60px;
+}
+@media (max-width: 321px) {
+  .logo {
+    visibility: hidden;
+    width: 0;
+  }
+  .text-font-title {
+    margin-left: 15px;
+  }
+}

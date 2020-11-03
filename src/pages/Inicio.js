@@ -6,7 +6,7 @@ class Inicio extends Component {
     render() {
       return (
         <div>
-            
+            <Navbar></Navbar>
             <section className="container-carousel">
 
             
