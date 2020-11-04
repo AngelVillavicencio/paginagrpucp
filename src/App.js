@@ -1,7 +1,8 @@
 import Inicio from "./pages/Inicio.js";
 import './App.css'
+import Actividades from "./pages/Actividades.js";
 const App = () => {
-  return <Inicio></Inicio>;
+  return <Actividades></Actividades>;
 };
 
 export default App;

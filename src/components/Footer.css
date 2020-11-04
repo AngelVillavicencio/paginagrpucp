@@ -18,6 +18,7 @@
 }*/
 
 .footer-text {
+  background-color: black;
   display: flex;
   justify-content: center;
   margin-left: 50px;
@@ -26,11 +27,16 @@
 }
 
 .footer-text h3 {
+  background-color: black;
   margin-top: 15px;
   font-weight: 700;
 }
+.footer-text p {
+  background-color: black;
+}
 
 .footer-icons {
+  background-color: black;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -39,6 +45,7 @@
 }
 
 .footer-icon {
+  background-color: black;
   height: 25px;
   margin-right: 10px;
   margin-left: 10px;
@@ -46,12 +53,15 @@
 }
 
 .footer-auspicios {
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .image-icon-pucp {
+  background-color: black;
+
   width: 350px;
 }
 
