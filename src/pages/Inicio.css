@@ -1,3 +1,21 @@
 .container-mision {
-  background-color: black;
+  background-color: #00171f;
+}
+#mision {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  text-decoration: underline #f2ae22;
+}
+
+#mision-txt {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 10px 200px 10px 200px;
+}
+
+#img-vision {
+  display: block;
+  margin: auto;
+  max-width: 70%;
+  height: auto;
 }

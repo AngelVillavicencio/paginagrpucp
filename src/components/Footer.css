@@ -1,0 +1,75 @@
+.footer {
+  background-color: black;
+}
+
+.container-footer {
+  min-height: 212px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+/*
+.container-footer div {
+  height: 100%;
+}
+.container-footer div div {
+  height: 100%;
+}*/
+
+.footer-text {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  flex-direction: column;
+  text-align: start;
+}
+
+.footer-text h3 {
+  background-color: black;
+  margin-top: 15px;
+  font-weight: 700;
+}
+.footer-text p {
+  background-color: black;
+}
+
+.footer-icons {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 200px;
+  align-items: flex-end;
+}
+
+.footer-icon {
+  background-color: black;
+  height: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+.footer-auspicios {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-icon-pucp {
+  background-color: black;
+
+  width: 350px;
+}
+
+@media (max-width: 768px) {
+  .footer-icons {
+    height: 100%;
+  }
+  .image-icon-pucp {
+    width: 300px;
+  }
+}
