@@ -17,8 +17,14 @@ class Inicio extends Component {
 
 
             <section className="container-mision">
-
-
+            <h2 id="mision">
+                  Misión 
+              </h2>
+              <p id="mision-txt">
+                  Generar la investigación y participación de proyectos en alumnos de la universidad y trabajo en conjunto con la universidad.
+              </p>
+              <img src="img-vision.jpeg" id="img-vision"></img>
+            
 
 
             </section>
