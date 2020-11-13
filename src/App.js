@@ -7,7 +7,7 @@ import Actividad_taller  from "./pages/Actividad_taller.js";
 const App = () => {
   return(
   <React.Fragment>
-    <Actividad_taller></Actividad_taller>    
+    <Inicio></Inicio>    
   </React.Fragment>
   );
 };
