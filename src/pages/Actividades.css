@@ -1,0 +1,98 @@
+.container-talleres {
+  min-height: 800px;
+}
+.talleres {
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.talleres-tittle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.talleres-tittle h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.line {
+  background-color: #f2ae22;
+  min-width: 650px;
+  height: 2px;
+  box-shadow: -1px 9px 55px -3px rgba(242, 174, 34, 0.71);
+  -webkit-box-shadow: -1px 9px 55px -3px rgba(242, 174, 34, 0.71);
+  -moz-box-shadow: -1px 9px 55px -3px rgba(242, 174, 34, 0.71);
+}
+
+.cards-talleres {
+  margin-top: 50px;
+}
+.taller {
+  margin: 25px;
+  max-width: 400px;
+  min-width: 300px;
+  height: 450px;
+}
+.taller-image {
+  margin-right: auto;
+  margin-left: auto;
+  width: 270px;
+  object-fit: cover;
+  background-color: white;
+}
+.taller-body {
+  background-color: white;
+}
+
+.taller-body h5 {
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.taller-body p {
+  font-family: "Archivo Narrow", sans-serif;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.taller-body h5 {
+  background-color: white;
+  color: #f2ae22;
+}
+.taller-body p {
+  background-color: white;
+  color: #00171f;
+}
+
+.taller-boton {
+  background-color: #f2ae22;
+  text-align: center;
+  width: 130px;
+  height: 30px;
+  text-decoration: none;
+  border: none;
+  color: white;
+  padding: 2px 2px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 425px) {
+  .talleres-tittle h2 {
+    font-size: 32px;
+  }
+
+  .line {
+    background-color: #f2ae22;
+    min-width: 320px;
+  }
+}
