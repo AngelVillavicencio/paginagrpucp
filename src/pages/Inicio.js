@@ -52,7 +52,6 @@ class Inicio extends Component {
               </ul>
               <button className="boton-interesado">¿Interesado?</button>
             </section>
-              
             <Footer></Footer>
         </div>
       );
