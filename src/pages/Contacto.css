@@ -1,0 +1,28 @@
+.contenido{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px;
+
+}
+.formulario h2{
+    background-color: #FCFCFC;
+    font-family: nunito;
+    font-size: 24px;
+    color: black;
+}
+.formulario{
+    border: solid 3px coral;
+    border-top-left-radius: 5% ;
+    border-bottom-left-radius: 5%;
+    background-color: #FCFCFC;
+    
+}
+.info{
+    border: solid 3px azure;
+    border-top-right-radius: 5% ;
+    border-bottom-right-radius: 5%;
+    background-color: #CACACA;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
