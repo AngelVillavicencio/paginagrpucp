@@ -7,51 +7,71 @@ class Contacto extends Component {
       return (
         <div>
             <Navbar></Navbar>
-            {/* título */}
-            <div>
-              <h1>Contacto</h1>
-              <div></div>
-            </div>
             {/* Recuadro */}
-            <div className="contenido">
-              {/* Form */}
-              <div className="formulario">
-                <h2>Envíanos un mensaje</h2>
-                <form>
-                <div>
-                  <label for="nombre">Nombre</label>
-                  <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"></input>
+            <div className="container-fluid contacto">
+              {/* título */}
+              <div className="row">
+                <div className="col titlecont">
+                  <h1>Contacto</h1>
+                  <div className="linea"></div>
                 </div>
-                <div>
-                  <label for="correo">Correo</label>
-                  <input type="text" name="correo" id="correo" placeholder="Ingrese su correo"></input>
-                </div>
-                <div>
-                  <label for="mensaje">Mensaje</label>
-                  <textarea name="mensje" placeholder="Escriba su texto."></textarea>
-                </div>
-                <input type="submit" value="Enviar mensaje"></input>
-                </form>
               </div>
-              {/* Información */}
-              <div className="info">
-                <h2>Información de contacto</h2>
-                <div>
-                  <h3>Dirección</h3>
-                  <p>Dirección fake</p>
+
+              <div className="todo row no-gutters d-flex flex-wrap">
+                <div className="col">
+                  {/* Formulario */}
+                  <div className="formulario">
+                    <h2>Envíanos un mensaje</h2>
+                    <form>
+                    <div className="row arriba">
+                      <div className="form-nombre col">
+                        <label for="nombre">Nombre</label><br></br>
+                        <input className="textinput" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"></input>
+                      </div>
+                      <div className="form-correo col">
+                        <label for="correo">Correo</label><br></br>
+                        <input className="textinput"  type="text" name="correo" id="correo" placeholder="Ingrese su correo"></input>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="form-mensaje col">
+                        <label for="mensaje">Mensaje</label><br></br>
+                        <div className="textmensaje">
+                          <textarea name="mensaje" placeholder="Escriba un mensaje." autoComplete="off"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="row buttone">
+                      <div className="col form"></div>
+                      <div className="col form">
+                        <div className="soyunboton">
+                          <input className="botondeform" type="submit" value="Enviar mensaje"></input>
+                        </div>
+                      </div>
+                    </div>
+                    </form>
+                  </div>
                 </div>
-                <div>
-                  <h3>Teléfono</h3>
-                  <p>9549234449 - 934123424</p>
-                </div>
-                <div>
-                  <h3>Correo</h3>
-                  <p>MiPresidenteEsFelix,NoMerino@abajoelcongreso.edu.pe</p>
+                <div className="col colinfo">
+                  {/* Información */}
+                  <div className="info">
+                    <h2>Información de contacto</h2>
+                    <div className="div-info">
+                      <h3>Dirección</h3>
+                      <p>Dirección fake</p>
+                    </div>
+                    <div className="div-info">
+                      <h3>Teléfono</h3>
+                      <p>9549234449 - 934123424</p>
+                    </div>
+                    <div className="div-info">
+                      <h3>Correo</h3>
+                      <p>MiPresidenteEsFelix,NoMerino@abajoelcongreso.edu.pe</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-
-
             <Footer></Footer>
         </div>
       );
