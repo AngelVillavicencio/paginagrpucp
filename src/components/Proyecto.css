@@ -30,7 +30,7 @@
   .descripcion-proyecto {
     font-size: 16px;
   }
-  .card {
+  .carta {
     height: 200px;
   }
 }
@@ -42,7 +42,7 @@
   .descripcion-proyecto {
     font-size: 14px;
   }
-  .card {
+  .carta {
     height: 120px;
     margin-bottom: 50px;
   }
