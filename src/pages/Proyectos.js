@@ -1,5 +1,5 @@
-import Imagen from '../OpenGL-00.jpg';
-import Robot from '../robot.jpg';
+import Imagen from '../assets/images/proyectos/OpenGL-00.jpg';
+import Robot from '../assets/images/proyectos/robot.jpg';
 import React from 'react';
 import './Proyectos.css';
 import Proyecto from '../components/Proyecto';

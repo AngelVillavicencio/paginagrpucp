@@ -1,10 +1,12 @@
 import React from 'react';
 import { Container, Grid } from '@material-ui/core';
+import './Proyecto.css';
+
 const Proyecto = (props) => {
   return (
     <Grid
       container
-      className="card"
+      className="carta"
       direction={props.invertido ? 'row-reverse' : 'row'}
     >
       <Grid

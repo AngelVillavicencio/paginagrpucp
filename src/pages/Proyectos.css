@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;900&display=swap');
-.card {
-  display: flex;
-  margin-bottom: 100px;
-  height: 300px;
-}
+
 .titulo {
   font-family: 'Roboto', sans-serif;
   font-size: 64px;
