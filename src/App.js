@@ -8,7 +8,7 @@ import Postulacion from './pages/Postulacion.js';
 const App = () => {
   return(
   <React.Fragment>
-    <Inicio></Inicio>    
+    <Postulacion></Postulacion>    
   </React.Fragment>
   );
 };
