@@ -10,7 +10,7 @@ const Proyectos = () => {
   };
   return (
     <div className="contenedor">
-      <p className="titulo" align="center">
+      <p className="titulo-proyecto" align="center">
         <span>Proyectos </span>
       </p>
       <p className="subtitulo" align="center">

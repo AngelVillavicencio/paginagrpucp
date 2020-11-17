@@ -17,14 +17,15 @@
 .contenido > p {
   background-color: #003459;
 }
-.titulo-proyecto {
+.titulo-carta {
   font-size: 48px;
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 20px;
 }
+
 @media (max-width: 1024px) {
-  .titulo-proyecto {
+  .titulo-carta {
     font-size: 24px;
   }
   .descripcion-proyecto {
@@ -35,7 +36,7 @@
   }
 }
 @media (max-width: 768px) {
-  .titulo-proyecto {
+  .titulo-carta {
     font-size: 16px;
     margin-bottom: 10px;
   }

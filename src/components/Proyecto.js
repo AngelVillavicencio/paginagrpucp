@@ -20,7 +20,7 @@ const Proyecto = (props) => {
       </Grid>
       <Grid item xs={8}>
         <Container className="contenido">
-          <p className="titulo-proyecto">{props.titulo}</p>
+          <p className="titulo-carta">{props.titulo}</p>
           <p className="descripcion-proyecto">{props.descripcion}</p>
         </Container>
       </Grid>
