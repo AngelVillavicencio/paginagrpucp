@@ -19,15 +19,13 @@ class Footer extends Component {
                         </div>
                         <div className="col footer-icons">
                             
-                            <a href=""><img className="footer-icon" src={icon_fb}></img></a>
-                            <a href=""><img className="footer-icon" src={icon_ig}></img></a>
-                            <a href=""><img className="footer-icon" src={icon_tw}></img></a>
+                            <a href="https://www.facebook.com/Grupo-de-Robotica-PUCP-101462913656266" target="_blank"><img className="footer-icon" src={icon_fb}></img></a>
+                            <a href="https://www.instagram.com/grupo_robotica/" target="_blank"><img className="footer-icon" src={icon_ig}></img></a>
+                            <a ><img className="footer-icon" src={icon_tw}></img></a>
                             
                         </div>
                         <div className="col footer-auspicios">
-                            
                             <img className="image-icon-pucp" src={icon_pucp}></img>
-                            
                         </div>
                     </div>
                 </div>
