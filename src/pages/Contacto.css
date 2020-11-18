@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+/* Contacto */
+div h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 1000;
+}
+.titlecont {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* -------------------------------------- */
+
+/* Recuadro */
+.todo {
+  margin: 50px 50px 80px 80px;
+  min-height: 90vh;
+}
+/* -------------------------------------- */
+
+/* Formulario */
+.formulario {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #fcfcfc;
+}
+.formulario h2 {
+  background-color: transparent;
+  color: black;
+  font-family: "Nunito";
+  padding-left: 35px;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 35px;
+  margin-bottom: 35px;
+}
+
+form label {
+  color: black;
+  background-color: transparent;
+  font-size: 18px;
+  font-family: "Montserrat";
+  padding-left: 35px;
+  margin-bottom: 20px;
+}
+.textinput {
+  margin-left: 35px;
+  background-color: transparent;
+  border: none;
+  color: black;
+  width: 100%;
+}
+.textmensaje {
+  background-color: transparent;
+  padding-left: 35px;
+  padding-right: 45px;
+  margin: 0px;
+  height: 35vh;
+}
+
+/* Botón */
+.soyunboton {
+  background-color: #f0ba50;
+  display: inline;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin: 20px 0px 20px 0px;
+}
+.botondeform {
+  background-color: transparent;
+  text-decoration: none;
+  border: 0px;
+  width: 70%;
+  color: #00171f;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.arriba {
+  margin-bottom: 50px;
+  margin-right: 35px;
+}
+.col .form {
+  background-color: transparent;
+}
+form .row {
+  background-color: transparent;
+}
+.buttone {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+form {
+  background-color: transparent;
+}
+.form-nombre {
+  background-color: transparent;
+}
+.form-correo {
+  background-color: transparent;
+}
+.form-mensaje {
+  background-color: transparent;
+}
+.colinfo {
+  background-color: transparent;
+}
+textarea {
+  resize: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-color: #c4c4c4;
+  color: black;
+}
+
+/* Información */
+.info {
+  background-color: #cacaca;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-image: url(../assets/images/logoblanco.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+}
+.info h2 {
+  background-color: transparent;
+  color: black;
+  font-family: "Nunito";
+  padding-left: 35px;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 35px;
+  margin-bottom: 35px;
+}
+.div-info {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.div-info h3 {
+  color: black;
+  background-color: transparent;
+  font-size: 18px;
+  font-family: "Montserrat";
+  margin-left: 35px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.div-info p {
+  color: black;
+  background-color: transparent;
+  font-size: 16px;
+  font-family: "Montserrat";
+  margin-left: 50px;
+  margin-bottom: 55px;
+}
+
+@media (max-width: 728px) {
+  .todo {
+    margin: 50px 0px;
+    min-height: 90vh;
+  }
+  .div-info p {
+    color: black;
+    background-color: transparent;
+    font-size: 12px;
+    font-family: "Montserrat";
+    margin-left: 50px;
+    margin-bottom: 55px;
+  }
+}
