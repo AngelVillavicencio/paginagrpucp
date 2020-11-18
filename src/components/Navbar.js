@@ -52,7 +52,7 @@ class Navbar extends Component {
                 CONTACTO
               </Link>
               <Link
-                className="nav-link text-white text-font-list disabled"
+                className="nav-link text-white text-font-list"
                 to="/postular"
               >
                 POSTULAR

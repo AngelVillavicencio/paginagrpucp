@@ -11,8 +11,7 @@ import './Miembros.css';
 class Miembros extends Component {
     render() {
       return (
-        <div>
-            <Navbar></Navbar>
+        <React.Fragment>
             <div className="container">
 
                 <div className="row">
@@ -124,8 +123,7 @@ class Miembros extends Component {
                     <a href="#"><img src={greg} ></img></a>
                 </div>
             </div>
-            <Footer></Footer>
-        </div>
+        </React.Fragment>
       );
     }
 }

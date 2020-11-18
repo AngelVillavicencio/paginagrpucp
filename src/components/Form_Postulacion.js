@@ -3,6 +3,7 @@ import Footer from './Footer';
 import Navbar from './Navbar';
 import './Form_Postulacion.css';
 import Postulacion from '../pages/Postulacion';
+import { Link } from 'react-router-dom';
 class Form_Postulacion extends Component {
     constructor(props) {
       super(props);
@@ -63,7 +64,7 @@ class Form_Postulacion extends Component {
                       <h2>POSTULACIÓN ENVIADA</h2>
                       <h3>¡Muchas gracias por postular al Grupo de Robótica PUCP!</h3>
                       <h5>Nos estaremos comunicando con usted en la brevedad</h5>
-                      <button className="boton-next" >Regresar al inicio</button>
+                      <Link className="boton-return" to="/">Regresar al inicio</Link>
                     </div>
                   ):(
                       <React.Fragment>

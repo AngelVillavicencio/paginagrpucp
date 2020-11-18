@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import { Link } from 'react-router-dom';
 import imageMision from '../assets/images/Inicio/group.jpeg';
 import imageVision from '../assets/images/Inicio/group2.jpg';
 import './Inicio.css';
@@ -10,8 +11,7 @@ class Inicio extends Component {
     
     render() {
       return (
-        <div>
-            <Navbar></Navbar>
+        <React.Fragment>
             <section className="container-carousel">
               <div className="carousel-container-image">
                     <div className="carousel-container-boton"></div>
@@ -50,10 +50,9 @@ class Inicio extends Component {
                 <li>Incentivar el aprendizaje autónomo.</li>
                 <li>Escapar de latinoamerica</li>
               </ul>
-              <button className="boton-interesado">¿Interesado?</button>
+              <Link className="boton-interesado" to="/postular">¿Interesado?</Link>
             </section>
-            <Footer></Footer>
-        </div>
+        </React.Fragment>
       );
     }
 }

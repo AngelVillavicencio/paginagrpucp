@@ -6,9 +6,7 @@ class Contacto extends Component {
     render() {
       return (
         <div>
-            <Navbar></Navbar>
             
-            <Footer></Footer>
         </div>
       );
     }

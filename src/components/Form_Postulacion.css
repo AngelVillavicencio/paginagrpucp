@@ -82,7 +82,29 @@
   margin-top: 25px;
   margin-bottom: 50px;
   padding: 15px;
+  text-align: center;
 }
+
+.boton-return {
+  background-color: #f0ba50;
+  border: none;
+  border-radius: 50px;
+  width: 300px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #00171f;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 15px;
+  align-self: center;
+}
+
+.boton-return:hover {
+  color: #46371b;
+  text-decoration: none;
+}
+
 .boton-back {
   background-color: #f0ba50;
   border: none;
@@ -101,6 +123,8 @@
 .postulacion-finalizada {
   text-align: center;
   background-color: transparent;
+  display: flex;
+  flex-direction: column;
 }
 .postulacion-finalizada h2,
 h3,
