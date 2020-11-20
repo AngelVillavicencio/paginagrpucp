@@ -1,0 +1,113 @@
+.act-taller{
+    display: grid;
+    grid-template-columns: repeat(2, fr);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: "tit tit tit"
+                         "tdesc tdesc tdesc"
+                         "dtxt dtxt img"
+                         "tses tses tses"
+                         "ses1 ses1 ses1"
+                         "ses2 ses2 ses2"
+                         "ses3 ses3 ses3"
+                         "ses4 ses4 ses4"
+                         "ses5 ses5 ses5"
+                         "sms sms sms";
+}
+
+.act-taller .title-taller{
+    grid-area: tit;
+    font-size: 5em;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: underline #F2AE22;
+    padding-left: 100px;
+    padding-top: 100px;
+    font-size: 60px;
+}
+
+.act-taller .title-desc{
+    grid-area: tdesc;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.act-taller .desc-txt{
+    grid-area: dtxt;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.act-taller .img-vision{    
+    grid-area: img;
+    margin: auto;
+}
+
+.act-taller .title-ses{
+    grid-area: tses;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.act-taller .sesion1{
+    grid-area: ses1;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+}
+
+.act-taller .sesion2{
+    grid-area: ses2;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+}
+
+.act-taller .sesion3{
+    grid-area: ses3;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+}
+
+.act-taller .sesion4{
+    grid-area: ses4;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+}
+
+.act-taller .sesion5{
+    grid-area: ses5;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+}
+
+.act-taller .mensaje{
+    grid-area: sms;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+ 
+@media screen and (max-width: 760px){
+    .act-taller{
+        grid-template-areas: "tit tit tit"
+                         "tdesc tdesc tdesc"
+                         "dtxt dtxt dtxt"
+                         "img img img "
+                         "tses tses tses"
+                         "ses1 ses1 ses1"
+                         "ses2 ses2 ses2"
+                         "ses3 ses3 ses3"
+                         "ses4 ses4 ses4"
+                         "ses5 ses5 ses5"
+                         "sms sms sms";
+    }
+}
+
+
+
