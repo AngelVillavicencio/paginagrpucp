@@ -2,7 +2,6 @@ import React from 'react';
 import Inicio from "./pages/Inicio.js";
 import './App.css'
 import Actividad_taller from "./pages/Actividad_taller.js";
-import Inicio from './pages/Inicio.js';
 import Actividades from './pages/Actividades.js';
 import Miembros from './pages/Miembros.js';
 import Proyectos from './pages/Proyectos.js';
@@ -24,6 +23,7 @@ const App = () => {
           <Route path="/postular" component={Postulacion} />
           <Route path="/contacto" component={Contacto} />
           <Route path="/inscripcion" component={Inscripcion} />
+          <Route path="/taller" component={Actividad_taller} />
         </Switch>
       </Layout>
     </BrowserRouter>

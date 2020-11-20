@@ -9,7 +9,6 @@ class Actividad_taller extends Component {
   render() {
     return (
       <div >
-        <Navbar></Navbar>
         <div class="act-taller">
           <h2 class="title-taller">
             Taller de Python
@@ -29,7 +28,7 @@ class Actividad_taller extends Component {
             Sesiones
           </h2>
           <div class="sesion1">
-            <h3>
+            <h3 class="subt">
               Sesión 1
             </h3>
             <ul>
@@ -46,7 +45,7 @@ class Actividad_taller extends Component {
             </ul>
           </div>
           <div class="sesion2">
-            <h3>
+            <h3 class="subt">
               Sesión 2
             </h3>
             <ul>
@@ -63,7 +62,7 @@ class Actividad_taller extends Component {
             </ul>
           </div>
           <div class="sesion3">
-            <h3>
+            <h3 class="subt">
               Sesión 3
             </h3>
             <ul>
@@ -80,7 +79,7 @@ class Actividad_taller extends Component {
             </ul>
           </div>
           <div class="sesion4">
-            <h3>
+            <h3 class="subt">
               Sesión 4
             </h3>
             <ul>
@@ -97,7 +96,7 @@ class Actividad_taller extends Component {
             </ul>
           </div>
           <div class="sesion5">
-            <h3>
+            <h3 class="subt">
               Sesión 5
             </h3>
             <ul>
@@ -118,7 +117,6 @@ class Actividad_taller extends Component {
             HOLA
           </div>
         </div>
-        <Footer></Footer>
       </div>
     );
   }

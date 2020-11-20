@@ -37,6 +37,7 @@
     font-family: 'Montserrat', sans-serif;
     padding-left: 100px;
     padding-right: 100px;
+    color: white;
 }
 
 .act-taller .img-vision{    
@@ -50,6 +51,10 @@
     margin-right: 100px;
     margin-top: 50px;
     margin-bottom: 25px;
+}
+
+.act-taller .subt{
+    color: white;
 }
 
 .act-taller .sesion1{
