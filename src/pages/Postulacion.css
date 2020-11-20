@@ -23,6 +23,13 @@
   margin-bottom: 50px;
   padding: 15px;
   align-self: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.boton-iniciarPostulacion:hover {
+  color: #46371b;
+  text-decoration: none;
 }
 
 @media (max-width: 425px) {

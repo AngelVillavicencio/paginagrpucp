@@ -1,19 +1,17 @@
 import React,{Component} from 'react';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import Form_Postulacion from '../components/Form_Postulacion';
+import { Link } from 'react-router-dom';
 
 import './Postulacion.css';
 class Postulacion extends Component {
     render() {
       return (
         <div>
-            <Navbar></Navbar>
-
             <div className="container-postulacion">
                 <div>
                     <h2 className="titulo">
-                        Misión 
+                        Postulación 
                     </h2>
                 </div>
                 <div className="postulacion-descripcion container-sm">
@@ -27,11 +25,8 @@ class Postulacion extends Component {
                     Se busca llegar a ser la mejor agrupación de la universidad para involucrarse en proyectos multidiciplinarios enfocados a la robótica. Por ello, se entiende que el postulante estará comprometido para colaborar en dicha meta.
                     </p>
                 </div>
-                <button className="boton-iniciarPostulacion">Iniciar Postulación</button>
+                <Link className="boton-iniciarPostulacion" to="/inscripcion">Iniciar Postulación</Link>
             </div>
-
-            <Form_Postulacion> </Form_Postulacion>
-            <Footer></Footer>
         </div>
       );
     }

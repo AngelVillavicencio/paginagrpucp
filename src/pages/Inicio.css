@@ -76,6 +76,12 @@
   align-self: center;
   margin-bottom: 50px;
   padding: 15px;
+  text-align: center;
+}
+
+.boton-interesado:hover {
+  color: #46371b;
+  text-decoration: none;
 }
 
 @media (max-width: 425px) {
