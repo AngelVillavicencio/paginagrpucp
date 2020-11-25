@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component, useState, useEffect } from 'react';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import './Actividad_taller.css';
 import python1 from "d:/paginagrpucp/src/assets/images/python1.png";
-class Actividad_taller extends Component {
 
+class Actividad_taller extends Component {
 
   render() {
     return (
@@ -112,10 +112,33 @@ class Actividad_taller extends Component {
               <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cumque cum eveniet deserunt officiis eius magni quibusdam? Ipsum quod, rerum voluptate ipsam quos, perspiciatis itaque numquam voluptatem vel voluptatum quibusdam.</li>
             </ul>
           </div>
-
-          <div class="mensaje">
-            HOLA
+        </div>
+        <div class="mensaje">
+          <h3 class="mtit">Envíanos un mensaje</h3>
+          <div class="nombreinput">
+            <label class="nombre">Nombres:</label>
+            <input type="text" class="nombrei" placeholder="Ingresa tus nombres"></input>
           </div>
+          <div class="apellidoinput">
+            <label class="apellido">Apellidos:</label>
+            <input type="text" class="apellidoi" placeholder="Ingresa tus apellidos"></input>
+          </div>
+          <div class="codigoinput">
+            <label class="codigo">Codigo PUCP:</label>
+            <input type="text" class="codigoi" placeholder="Ingresa tu codigo PUCP"></input>
+          </div>
+          <div class="correoinput">
+            <label class="correo">Correo Institucional:</label>
+            <input type="text" class="correoi" placeholder="Ingresa tu correo institucional"></input>
+          </div>
+          <div class="mensajeinput">
+            <label class="txt">Cuéntanos...¿Por qué te gustaría llevar el taller? o ¿Por qué quieres llevarlo?:</label>
+            <textarea type="text" class="txti" placeholder="Te leo"></textarea>
+          </div>
+
+          <p class="benviar">
+            <input type="submit" class="boton" value="Suscribirme"></input>
+          </p>
         </div>
       </div>
     );
