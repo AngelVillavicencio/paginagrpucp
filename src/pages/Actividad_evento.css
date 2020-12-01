@@ -183,26 +183,30 @@
                          "img img img "
                          "tses tses tses";
     }
-    .act-taller .img-vision{
+    .img-vision{
         margin-top: 50px;    
         padding-left: 50px;
         padding-right: 50px;
     }
-    .act-taller .title-evento{
+    .title-evento{
         padding-left: 50px;
         padding-top: 50px;
     }
-    .act-taller .title-desc{
+    .title-desc{
         padding-left: 50px;
     }
-    .act-taller .desc-txt{
+    .desc-txt{
         padding-left: 50px;
         padding-right: 50px;
     }
-    .act-taller .title-ponentes{
+    .title-ponentes{
         margin-left: 50px;
         margin-right: 50px;
-    }    
+    }   
+    .ponentes{
+        margin-left: 50px;
+        margin-right: 50px;
+    } 
     .mensaje{
         margin-left: 50px;
        margin-right: 50px;
