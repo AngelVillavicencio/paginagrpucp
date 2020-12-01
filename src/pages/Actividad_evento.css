@@ -1,0 +1,223 @@
+.act-evento{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: "tit tit tit"
+                         "tdesc tdesc tdesc"
+                         "dtxt dtxt img"
+                         "tses tses tses";
+}
+.title-evento{
+    grid-area: tit;
+    font-size: 5em;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: underline #F2AE22;
+    padding-left: 100px;
+    padding-top: 100px;
+    font-size: 60px;
+}
+.title-desc{
+    grid-area: tdesc;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.desc-txt{
+    grid-area: dtxt;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+}
+.img-vision{    
+    grid-area: img;
+    max-width: 75%;
+    margin: auto;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+.title-ponentes{
+    grid-area: tses;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.ponentes{
+    margin-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 15px;
+
+}
+.mensaje{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 70vh;
+    background: #FFFFFF;
+    border-radius: 60px;
+
+    display: grid;
+    grid-template-columns: repeat(2, fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "mtit mtit"
+                         "nom ap"
+                         "cod correo"
+                         "txt txt"
+                         "benviar benviar";
+}
+.mtit{
+    grid-area: mtit;
+    background-color:transparent;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    padding-top: 50px;
+    margin-bottom: 35px;
+    height: 20px;
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.nombreinput{
+    grid-area: nom;
+    background:transparent;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.apellidoinput{
+    grid-area: ap;
+    background:transparent;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.codigoinput{
+    grid-area: cod;
+    background: transparent;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.correoinput{
+    grid-area: correo;
+    background: transparent;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.mensajeinput{
+    grid-area: txt;
+    background:transparent;
+    margin-left: 100px;
+}
+
+.benviar{
+    grid-area: benviar;
+    background: transparent;
+    margin-left: 65vw;
+    margin-right: 50px;
+    padding-top: 50px;
+    
+}
+.boton{
+    background-color: #F0BA50;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 50px;
+    margin: 20px 0px 20px 0px;
+    color: black;
+    border: 0px;
+    width: 200px;
+
+}
+.nombre,.apellido,.codigo,.correo,.txt{
+    color: black;
+    min-width: 30vw;
+    background:transparent;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nombrei,.apellidoi,.codigoi,.correoi,.txti{
+    color: black;
+    width: 70%;
+    background:transparent;
+    border: none;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+@media screen and (max-width: 1250px){
+    .mensaje{
+        grid-template-areas: "mtit"
+                             "nom"
+                             "ap"
+                             "cod"
+                             "correo"
+                             "txt"
+                             "benviar"
+                             ;
+    }
+    .benviar{
+        margin-left: 32vw;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .act-evento{
+        grid-template-areas: "tit tit tit"
+                         "tdesc tdesc tdesc"
+                         "dtxt dtxt dtxt"
+                         "img img img "
+                         "tses tses tses";
+    }
+    .act-taller .img-vision{
+        margin-top: 50px;    
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .act-taller .title-evento{
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .act-taller .title-desc{
+        padding-left: 50px;
+    }
+    .act-taller .desc-txt{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .act-taller .title-ponentes{
+        margin-left: 50px;
+        margin-right: 50px;
+    }    
+    .mensaje{
+        margin-left: 50px;
+       margin-right: 50px;
+    }
+    .mtit{
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 4vw;
+    }
+    .nombreinput,.apellidoinput,.codigoinput,.correoinput,.mensajeinput{
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 2.5vw;
+    }
+    .benviar{
+        margin-left: 20vw;
+    }
+}
