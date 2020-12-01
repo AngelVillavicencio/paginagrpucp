@@ -200,7 +200,21 @@
     border-bottom: 1px solid #C4C4C4;
 }
 
-
+@media screen and (max-width: 1250px){
+    .mensaje{
+        grid-template-areas: "mtit"
+                             "nom"
+                             "ap"
+                             "cod"
+                             "correo"
+                             "txt"
+                             "benviar"
+                             ;
+    }
+    .benviar{
+        margin-left: 32vw;
+    }
+}
 
 @media screen and (max-width: 760px){
     .act-taller{
@@ -216,14 +230,26 @@
                          "ses5 ses5 ses5"
                          "sms sms sms";
     }
-    .img-vision{
+    .act-taller .img-vision{
         margin-top: 50px;    
-        padding-left: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .act-taller .title-taller{
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .act-taller .title-desc{
+        padding-left: 50px;
     }
     .act-taller .desc-txt{
         padding-left: 50px;
         padding-right: 50px;
     }
+    .act-taller .title-ses{
+        margin-left: 50px;
+        margin-right: 50px;
+    }    
     .act-taller .sesion1{
         margin-left: 50px;
         margin-right: 50px;
@@ -252,25 +278,20 @@
         margin-left: 50px;
        margin-right: 50px;
     }
+    .mtit{
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 4vw;
+    }
     .nombreinput,.apellidoinput,.codigoinput,.correoinput,.mensajeinput{
         margin-left: 50px;
         margin-right: 50px;
-    }
-}
-@media screen and (max-width: 1250px){
-    .mensaje{
-        grid-template-areas: "mtit"
-                             "nom"
-                             "ap"
-                             "cod"
-                             "correo"
-                             "txt"
-                             "benviar"
-                             ;
+        font-size: 2.5vw;
     }
     .benviar{
-        margin-left: 32vw;
+        margin-left: 20vw;
     }
 }
+
 
 
