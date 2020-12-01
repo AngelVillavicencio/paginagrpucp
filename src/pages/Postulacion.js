@@ -7,7 +7,7 @@ import './Postulacion.css';
 class Postulacion extends Component {
     render() {
       return (
-        <div>
+        <React.Fragment>
             <div className="container-postulacion">
                 <div>
                     <h2 className="titulo">
@@ -27,7 +27,7 @@ class Postulacion extends Component {
                 </div>
                 <Link className="boton-iniciarPostulacion" to="/inscripcion">Iniciar Postulación</Link>
             </div>
-        </div>
+        </React.Fragment>
       );
     }
 }

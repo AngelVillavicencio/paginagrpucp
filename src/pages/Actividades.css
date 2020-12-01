@@ -1,5 +1,6 @@
 .container-talleres {
   min-height: 800px;
+  margin-top: -1px;
 }
 .talleres {
   margin-top: 50px;

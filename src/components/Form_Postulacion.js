@@ -56,7 +56,7 @@ class Form_Postulacion extends Component {
 
     render() {
       return (
-        <div>
+        <React.Fragment>
             <div className="form-postulacion">
               <div className="form-postulacion-card">
                   {this.state.enviado===true ? (
@@ -216,7 +216,7 @@ class Form_Postulacion extends Component {
 
               </div>
             </div>
-        </div>
+        </React.Fragment>
       );
     }
 }
