@@ -1,0 +1,42 @@
+.testimonio-card {
+  display: flex;
+  color: black;
+  background-color: #fff;
+  padding: 40px;
+}
+
+.testimonio-text {
+  color: black;
+  background-color: #fff;
+}
+
+.testimonio-text-container {
+  color: black;
+  background-color: #fff;
+}
+
+.testimonio-container {
+  width: 70%;
+  max-width: 900px;
+  flex-grow: 1;
+  margin: 80px 0;
+}
+
+.testimonio-imagen {
+  height: 200px;
+  display: block;
+  max-width: 400px;
+  overflow: hidden;
+  width: 100%;
+  background-color: #fff;
+}
+
+.MuiGrid-item {
+  background-color: #fff;
+}
+
+@media (max-width: 596px) {
+  .testimonio-imagen {
+    margin-bottom: 40px;
+  }
+}
