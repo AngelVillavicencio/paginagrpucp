@@ -14,7 +14,7 @@
 }
 
 .talleres-tittle h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: bold;
   font-size: 64px;
   font-weight: 600;
@@ -50,14 +50,14 @@
 }
 
 .taller-body h5 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: bold;
   font-size: 30px;
   font-weight: 600;
 }
 
 .taller-body p {
-  font-family: "Archivo Narrow", sans-serif;
+  font-family: 'Archivo Narrow', sans-serif;
   font-style: italic;
   font-size: 14px;
 }
@@ -86,6 +86,9 @@
   cursor: pointer;
 }
 
+.container-testimonio {
+  margin-top: 60px;
+}
 @media (max-width: 425px) {
   .talleres-tittle h2 {
     font-size: 32px;

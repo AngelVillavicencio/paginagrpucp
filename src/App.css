@@ -1,5 +1,7 @@
-* {
-  margin: 0;
+div {
   background-color: #00171f;
   color: white;
+}
+* {
+  margin: 0;
 }
