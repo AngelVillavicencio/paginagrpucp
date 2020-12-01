@@ -9,6 +9,37 @@ import icon_ig from '../assets/images/icon-instagram.png';
 import icon_tw from '../assets/images/icon-twitter.png';
 import './Miembros.css';
 class Miembros extends Component {
+
+    
+    miembros = [
+                {
+                    id:1,
+                    nombres:'Felix',
+                    apellidos:'Calla Sime',
+                    cargo:'Presidente',
+                    fraseDescriptiva:'PREGUNTARLEEE',
+                    urlFacebook:'www.asfdasdds',
+                    urlInstagram:'www.asfdasdds',
+                    urlLinkedin:'www.asfdasdds',
+                    urlTwitter:'www.asfdasdds',
+                    urlPhoto:''
+                },
+                {
+                    id:2,
+                    nombres:'Felix',
+                    apellidos:'Calla Sime',
+                    cargo:'Presidente',
+                    fraseDescriptiva:'PREGUNTARLEEE',
+                    urlFacebook:'www.asfdasdds',
+                    urlInstagram:'www.asfdasdds',
+                    urlLinkedin:'www.asfdasdds',
+                    urlTwitter:'www.asfdasdds',
+                    urlPhoto:''
+                }
+            ];
+    
+    
+
     render() {
       return (
         <React.Fragment>
@@ -26,7 +57,7 @@ class Miembros extends Component {
                             <div className="card-presi">
                                 <img src={cristian}></img>
                                 <div className="card-miembro-info">
-                                    <h4>Felix Calla Sime</h4>
+                                    <h4>{this.miembros[0].nombres} {this.miembros[0].apellidos}</h4>
                                     <h5>presidente</h5>
                                     <h6>“Aveces se me sale un GA”</h6>
                                     <div className="card-miembro-icons">

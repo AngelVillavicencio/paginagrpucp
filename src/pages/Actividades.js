@@ -1,7 +1,4 @@
 import React,{Component} from 'react';
-import ReactDOM from 'react-dom';
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
 import image_Cplus from '../assets/images/taller-c++.png';
 import './Actividades.css';
 class Actividades extends Component {
