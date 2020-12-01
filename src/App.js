@@ -1,6 +1,8 @@
 import React from 'react';
-import Inicio from './pages/Inicio.js';
-import './App.css';
+import Inicio from "./pages/Inicio.js";
+import './App.css'
+import Actividad_taller from "./pages/Actividad_taller.js";
+import Actividad_evento from "./pages/Actividad_evento.js"
 import Actividades from './pages/Actividades.js';
 import Miembros from './pages/Miembros.js';
 import Proyectos from './pages/Proyectos.js';
@@ -22,6 +24,8 @@ const App = () => {
           <Route path="/postular" component={Postulacion} />
           <Route path="/contacto" component={Contacto} />
           <Route path="/inscripcion" component={Inscripcion} />
+          <Route path="/taller" component={Actividad_taller} />
+          <Route path="/evento" component={Actividad_evento} />
         </Switch>
       </Layout>
     </BrowserRouter>
