@@ -32,10 +32,10 @@ class Actividad_evento extends Component {
                     <h2 className="ponente1">
                         -Angel Villavicencio Muñoz
                     </h2>
-                    <h2 className="ponente2">
+                    <h2 className="ponente1">
                         -Angel Villavicencio Muñoz
                     </h2>
-                    <h2 className="ponente3">
+                    <h2 className="ponente1">
                         -Angel Villavicencio Muñoz
                     </h2>
                 </div>

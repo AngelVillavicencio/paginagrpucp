@@ -4,13 +4,7 @@
     grid-template-rows: repeat(6, auto);
     grid-template-areas: "tit tit tit"
                          "tdesc tdesc tdesc"
-                         "dtxt dtxt img"
-                         "tses tses tses"
-                         "ses1 ses1 ses1"
-                         "ses2 ses2 ses2"
-                         "ses3 ses3 ses3"
-                         "ses4 ses4 ses4"
-                         "ses5 ses5 ses5";
+                         "dtxt dtxt img";
 }
 
 .act-taller .title-taller{
@@ -48,53 +42,22 @@
     padding-right: 100px;
     padding-left: 50px;
 }
-
-.act-taller .title-ses{
-    grid-area: tses;
+.title-ses{
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 50px;
     margin-bottom: 25px;
 }
-
-.act-taller .subt{
+.sesion1{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+}
+.subt{
     color: white;
 }
-
-.act-taller .sesion1{
-    grid-area: ses1;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 25px;
-}
-
-.act-taller .sesion2{
-    grid-area: ses2;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 25px;
-}
-
-.act-taller .sesion3{
-    grid-area: ses3;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 25px;
-}
-
-.act-taller .sesion4{
-    grid-area: ses4;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 25px;
-}
-
-.act-taller .sesion5{
-    grid-area: ses5;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 25px;
-}
+/*------------------------------------------------*/
+/*cuadro de mensaje*/
 
 .mensaje{
     margin-left: 100px;
@@ -199,6 +162,7 @@
     border: none;
     border-bottom: 1px solid #C4C4C4;
 }
+/*------------------------------------------------*/
 
 @media screen and (max-width: 1250px){
     .mensaje{
@@ -221,14 +185,7 @@
         grid-template-areas: "tit tit tit"
                          "tdesc tdesc tdesc"
                          "dtxt dtxt dtxt"
-                         "img img img "
-                         "tses tses tses"
-                         "ses1 ses1 ses1"
-                         "ses2 ses2 ses2"
-                         "ses3 ses3 ses3"
-                         "ses4 ses4 ses4"
-                         "ses5 ses5 ses5"
-                         "sms sms sms";
+                         "img img img ";
     }
     .act-taller .img-vision{
         margin-top: 50px;    
@@ -250,27 +207,7 @@
         margin-left: 50px;
         margin-right: 50px;
     }    
-    .act-taller .sesion1{
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    
-    .act-taller .sesion2{
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    
-    .act-taller .sesion3{
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    
-    .act-taller .sesion4{
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    
-    .act-taller .sesion5{
+    .sesion1{
         margin-left: 50px;
         margin-right: 50px;
     }

@@ -54,8 +54,13 @@
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: 15px;
-
 }
+.ponente1{
+    font-size: 1.5em;
+}
+
+/*------------------------------------------------*/
+/*cuadro de mensaje*/
 .mensaje{
     margin-left: 100px;
     margin-right: 100px;
@@ -158,6 +163,7 @@
     border: none;
     border-bottom: 1px solid #C4C4C4;
 }
+/*------------------------------------------------*/
 
 @media screen and (max-width: 1250px){
     .mensaje{

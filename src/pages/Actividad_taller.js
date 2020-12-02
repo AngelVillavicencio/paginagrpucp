@@ -24,6 +24,8 @@ class Actividad_taller extends Component {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, corrupti voluptatum? Nihil atque quaerat vel in, officia doloremque quas vero voluptatem eveniet voluptas recusandae porro deserunt necessitatibus facilis corrupti qui.
           </h3>
           <img src={python1} className="img-vision"></img>
+        </div>
+        <div className="sesiones">
           <h2 className="title-ses">
             Sesiones
           </h2>
@@ -44,7 +46,7 @@ class Actividad_taller extends Component {
               <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cumque cum eveniet deserunt officiis eius magni quibusdam? Ipsum quod, rerum voluptate ipsam quos, perspiciatis itaque numquam voluptatem vel voluptatum quibusdam.</li>
             </ul>
           </div>
-          <div className="sesion2">
+          <div className="sesion1">
             <h3 className="subt">
               Sesión 2
             </h3>
@@ -61,7 +63,7 @@ class Actividad_taller extends Component {
               <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cumque cum eveniet deserunt officiis eius magni quibusdam? Ipsum quod, rerum voluptate ipsam quos, perspiciatis itaque numquam voluptatem vel voluptatum quibusdam.</li>
             </ul>
           </div>
-          <div className="sesion3">
+          <div className="sesion1">
             <h3 className="subt">
               Sesión 3
             </h3>
@@ -78,7 +80,7 @@ class Actividad_taller extends Component {
               <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cumque cum eveniet deserunt officiis eius magni quibusdam? Ipsum quod, rerum voluptate ipsam quos, perspiciatis itaque numquam voluptatem vel voluptatum quibusdam.</li>
             </ul>
           </div>
-          <div className="sesion4">
+          <div className="sesion1">
             <h3 className="subt">
               Sesión 4
             </h3>
@@ -95,7 +97,7 @@ class Actividad_taller extends Component {
               <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cumque cum eveniet deserunt officiis eius magni quibusdam? Ipsum quod, rerum voluptate ipsam quos, perspiciatis itaque numquam voluptatem vel voluptatum quibusdam.</li>
             </ul>
           </div>
-          <div className="sesion5">
+          <div className="sesion1">
             <h3 className="subt">
               Sesión 5
             </h3>
