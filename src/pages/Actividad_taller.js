@@ -6,6 +6,9 @@ import python1 from "../assets/images/python1.png";
 
 function Actividad_taller(props){
 
+
+  
+
   return (
     <div>
       <div className="act-taller">

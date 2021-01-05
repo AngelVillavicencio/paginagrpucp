@@ -63,7 +63,17 @@
 
 .card-miembro img {
   height: 100%;
+
   border-radius: 50%;
+  object-fit: cover;
+}
+.card-miembro-foto-perfil {
+  width: 240px;
+}
+
+.tamano-imagen {
+  height: 86vh;
+  /*object-fit: cover;*/
 }
 
 .card-miembro-info {
@@ -106,6 +116,16 @@
   margin: 1px 15px;
 }
 
+.btn-slide {
+  background: transparent;
+}
+
+.tamano-carousel {
+  margin-top: 45px;
+  max-height: 700px;
+  overflow: hidden;
+}
+
 @media (max-width: 425px) {
   .card-miembro img {
     height: 60%;
@@ -141,5 +161,20 @@
     height: 100%;
     border-radius: 0;
     margin: 1px 5px;
+  }
+
+  .card-miembro img {
+    height: 150px;
+
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .card-miembro-foto-perfil {
+    width: 120px;
+  }
+
+  .tamano-imagen {
+    height: 35vh;
   }
 }

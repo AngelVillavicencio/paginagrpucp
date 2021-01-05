@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import icon_pucp from '../assets/images/logoPUCP.png';
+import icon_pucp from '../assets/images/logoblanco.png';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';

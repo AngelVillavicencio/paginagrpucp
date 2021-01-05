@@ -3,7 +3,7 @@
 .carta {
   display: flex;
   margin-bottom: 100px;
-  height: 300px;
+  min-height: 300px;
 }
 .imagen-background {
   background-color: #f8fcff;
@@ -18,10 +18,26 @@
   background-color: #003459;
 }
 .titulo-carta {
-  font-size: 48px;
+  font-size: 25px;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
   margin-bottom: 20px;
+}
+.descripcion-proyecto {
+  text-align: justify;
+}
+@media (max-width: 1440px) {
+  .titulo-carta {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .descripcion-proyecto {
+    font-size: 17px;
+  }
+  .carta {
+    height: 120px;
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -29,7 +45,7 @@
     font-size: 24px;
   }
   .descripcion-proyecto {
-    font-size: 16px;
+    font-size: 17px;
   }
   .carta {
     height: 200px;
@@ -41,7 +57,7 @@
     margin-bottom: 10px;
   }
   .descripcion-proyecto {
-    font-size: 14px;
+    font-size: 15px;
   }
   .carta {
     height: 120px;
