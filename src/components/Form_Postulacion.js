@@ -88,7 +88,7 @@ class Form_Postulacion extends Component {
       facultad: this.state.formulario.facultad,
       cicloEstudio: this.state.formulario.cicloEstudio,
       porquePertenecer: this.state.formulario.porquePertenecer,
-      experencia: this.state.formulario.experencia,
+      experiencia: this.state.formulario.experiencia,
       expectativas: this.state.formulario.expectativas,
       urlVideo: this.state.formulario.urlVideo,
     };
@@ -232,11 +232,13 @@ class Form_Postulacion extends Component {
                             onChange={this.handleChange}
                           >
                             <option>Elige una carrera</option>
-                            <option>Ingeniería de Electrónica</option>
-                            <option>Ingeniería de Civil</option>
-                            <option>Ingeniería de Mecatrónica</option>
-                            <option>Ingeniería de Informática</option>
-                            <option>Ingeniería de Telecomunicaciones</option>
+                            <option>Ingeniería Electrónica</option>
+                            <option>Ingeniería Industrial</option>
+                            <option>Ingeniería Mecatrónica</option>
+                            <option>Ingeniería Informática</option>
+                            <option>Ingeniería de las Telecomunicaciones</option>
+                            <option>Ingeniería Civil</option>
+                            <option>Otros</option>
                           </select>
                         </p>
                         <p>
@@ -253,6 +255,7 @@ class Form_Postulacion extends Component {
                             <option>
                               Facultad de Ciencias de las Comunicaciones
                             </option>
+                            <option>Facultad de Letras</option>
                           </select>
                         </p>
                         <p>
