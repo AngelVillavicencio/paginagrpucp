@@ -43,6 +43,7 @@ const Contacto = () => {
                   <label for="nombre">Nombre</label>
                   <br></br>
                   <input
+                    required
                     className="textinput"
                     type="text"
                     name="nombre"
@@ -55,7 +56,8 @@ const Contacto = () => {
                   <br></br>
                   <input
                     className="textinput"
-                    type="text"
+                    type="email"
+                    required
                     name="correo"
                     id="correo"
                     placeholder="Ingrese su correo"
@@ -68,6 +70,7 @@ const Contacto = () => {
                   <br></br>
                   <div className="textmensaje">
                     <textarea
+                      required
                       name="mensaje"
                       placeholder="Escriba un mensaje."
                       autoComplete="off"

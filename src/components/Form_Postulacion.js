@@ -157,7 +157,9 @@ class Form_Postulacion extends Component {
                           <label className="label-card">Nombres:</label>
                           <br></br>
                           <input
+                            required
                             className="card-inputs"
+                            placeholder="Ingrese sus nombres"
                             type="text"
                             name="nombres"
                             value={this.state.formulario.nombres}
@@ -168,6 +170,8 @@ class Form_Postulacion extends Component {
                           <label className="label-card">Apellidos:</label>
                           <br></br>
                           <input
+                            required
+                            placeholder="Ingrese sus apellidos"
                             className="card-inputs"
                             type="text"
                             name="apellidos"
@@ -184,6 +188,7 @@ class Form_Postulacion extends Component {
                             className="card-inputs"
                             type="email"
                             name="correoPucp"
+                            placeholder="Ingrese su correo electrónico PUCP"
                             required
                             value={this.state.formulario.correoPucp}
                             onChange={this.handleChange}
@@ -195,9 +200,11 @@ class Form_Postulacion extends Component {
                           </label>
                           <br></br>
                           <input
+                            required
                             className="card-inputs"
                             type="tel"
                             name="numCelular"
+                            placeholder="Ingrese su número de celular"
                             value={this.state.formulario.numCelular}
                             onChange={this.handleChange}
                           ></input>
@@ -281,6 +288,7 @@ class Form_Postulacion extends Component {
                           </label>
                           <br></br>
                           <input
+                            required
                             className="card-inputs"
                             type="text"
                             name="porquePertenecer"
@@ -296,6 +304,7 @@ class Form_Postulacion extends Component {
                           </label>
                           <br></br>
                           <input
+                            required
                             className="card-inputs"
                             type="text"
                             name="experiencia"
@@ -320,9 +329,11 @@ class Form_Postulacion extends Component {
                           </label>
                           <br></br>
                           <input
+                            required
                             className="card-inputs"
                             type="text"
                             name="expectativas"
+                            placeholder="Cuéntanos brevemente"
                             value={this.state.formulario.expectativas}
                             onChange={this.handleChange}
                           ></input>
@@ -333,9 +344,11 @@ class Form_Postulacion extends Component {
                           </label>
                           <br></br>
                           <input
+                            required
                             className="card-inputs"
                             type="text"
                             name="urlVideo"
+                            placeholder="Enlace de tu video"
                             value={this.state.formulario.urlVideo}
                             onChange={this.handleChange}
                           ></input>
