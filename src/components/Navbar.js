@@ -6,7 +6,7 @@ class Navbar extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-expand-lg background-Navbar">
+        <nav className="navbar navbar-expand-lg background-Navbar fixed-top">
           <Link
             className="navbar-brand text-white text-font-title ml-md-5 ml-sm-3 ml-lg-5 mr-sm-0"
             to="/"

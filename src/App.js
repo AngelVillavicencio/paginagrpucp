@@ -1,6 +1,8 @@
 import React from 'react';
-import Inicio from './pages/Inicio.js';
-import './App.css';
+import Inicio from "./pages/Inicio.js";
+import './App.css'
+import Actividad_taller from "./pages/Actividad_taller.js";
+import Actividad_evento from "./pages/Actividad_evento.js"
 import Actividades from './pages/Actividades.js';
 import Miembros from './pages/Miembros.js';
 import Proyectos from './pages/Proyectos.js';
@@ -17,6 +19,8 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Inicio} />
           <Route path="/proyectos" component={Proyectos} />
+          <Route path="/actividades/taller/:id" component={Actividad_taller} />
+          <Route path="/actividades/evento/:id" component={Actividad_evento} />
           <Route path="/actividades" component={Actividades} />
           <Route path="/miembros" component={Miembros} />
           <Route path="/postular" component={Postulacion} />

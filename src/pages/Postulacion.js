@@ -1,13 +1,11 @@
 import React,{Component} from 'react';
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
 import { Link } from 'react-router-dom';
 
 import './Postulacion.css';
 class Postulacion extends Component {
     render() {
       return (
-        <div>
+        <React.Fragment>
             <div className="container-postulacion">
                 <div>
                     <h2 className="titulo">
@@ -27,7 +25,7 @@ class Postulacion extends Component {
                 </div>
                 <Link className="boton-iniciarPostulacion" to="/inscripcion">Iniciar Postulación</Link>
             </div>
-        </div>
+        </React.Fragment>
       );
     }
 }

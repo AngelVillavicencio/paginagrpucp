@@ -14,11 +14,11 @@ class Inicio extends Component {
         <React.Fragment>
             <section className="container-carousel">
               <div className="carousel-container-image">
-                    <div className="carousel-container-boton"></div>
-                    <div className="carousel-container-boton"></div>
-                    <div className="carousel-container-boton"></div>
+                  <div className="carousel-container-boton"></div>
+                  <div className="carousel-container-boton"></div>
+                  <div className="carousel-container-boton"></div>
               </div>
-            </section>  
+            </section>
             <section className="container-mision">
               <h2 className="titulo">
                 Misión 
