@@ -1,5 +1,5 @@
 .container-talleres {
-  min-height: 800px;
+  min-height: 50px;
   margin-top: -1px;
 }
 .talleres {
@@ -15,7 +15,7 @@
 }
 
 .talleres-tittle h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: bold;
   font-size: 64px;
   font-weight: 600;
@@ -51,14 +51,14 @@
 }
 
 .taller-body h5 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: bold;
   font-size: 30px;
   font-weight: 600;
 }
 
 .taller-body p {
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: "Archivo Narrow", sans-serif;
   font-style: italic;
   font-size: 14px;
 }
@@ -90,6 +90,10 @@
 .container-testimonio {
   margin-top: 60px;
 }
+
+.no-available {
+  font-size: 70px;
+}
 @media (max-width: 425px) {
   .talleres-tittle h2 {
     font-size: 32px;
@@ -98,5 +102,8 @@
   .line {
     background-color: #f2ae22;
     min-width: 320px;
+  }
+  .no-available {
+    font-size: 20px;
   }
 }

@@ -63,7 +63,7 @@
 .image-icon-pucp {
   background-color: black;
 
-  width: 350px;
+  width: 150px;
 }
 
 @media (max-width: 768px) {
@@ -71,6 +71,45 @@
     height: 100%;
   }
   .image-icon-pucp {
-    width: 300px;
+    width: 180px;
+  }
+
+  .footer-text p {
+    background-color: black;
+    font-size: 10px;
+  }
+  .image-icon-pucp {
+    background-color: black;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer-icons {
+    height: 100%;
+  }
+  .image-icon-pucp {
+    width: 50px;
+  }
+
+  .footer-text {
+    margin: 0px;
+  }
+  .footer-text p {
+    background-color: black;
+    font-size: 10px;
+  }
+  .image-icon-pucp {
+    background-color: black;
+    display: none;
+  }
+  .container-footer {
+    display: flex;
+    min-height: 212px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 }

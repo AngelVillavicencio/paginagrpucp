@@ -2,23 +2,71 @@ import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import image1 from '../assets/images/Inicio/1.jpeg'
+import image2 from '../assets/images/Inicio/2.jpeg'
+import image3 from '../assets/images/Inicio/3.jpeg'
+import image4 from '../assets/images/Inicio/4.jpeg'
+import image5 from '../assets/images/Inicio/5.jpeg'
+import image6 from '../assets/images/Inicio/6.jpeg'
 import { Link } from 'react-router-dom';
 import imageMision from '../assets/images/Inicio/group.jpeg';
 import imageVision from '../assets/images/Inicio/group2.jpg';
 import './Inicio.css';
 class Inicio extends Component {
-
-    
     render() {
       return (
         <React.Fragment>
-            <section className="container-carousel">
-              <div className="carousel-container-image">
-                  <div className="carousel-container-boton"></div>
-                  <div className="carousel-container-boton"></div>
-                  <div className="carousel-container-boton"></div>
-              </div>
-            </section>
+              <div id="carouselExampleCaptions" className="carousel slide tamano-carousel container-xl" data-ride="carousel">
+                <ol className="carousel-indicators">
+                  <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+                </ol>
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img src={image1} className="d-block w-100 tamano-imagen " alt="..."></img>
+                    <div className="carousel-caption d-none d-md-block btn-slide">
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <img src={image2} className="d-block w-100 tamano-imagen " alt="..."></img>
+                    <div className="carousel-caption d-none d-md-block btn-slide">
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <img src={image3} className="d-block w-100 tamano-imagen" alt="..."></img>
+                    <div className="carousel-caption d-none d-md-block btn-slide">
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <img src={image4} className="d-block w-100 tamano-imagen" alt="..."></img>
+                    <div className="carousel-caption d-none d-md-block btn-slide">
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <img src={image5} className="d-block w-100 tamano-imagen" alt="..."></img>
+                    <div className="carousel-caption d-none d-md-block btn-slide">
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <img src={image6} className="d-block w-100 tamano-imagen" alt="..."></img>
+                    <div className="carousel-caption d-none d-md-block btn-slide">
+                    </div>
+                  </div>
+                </div>
+                <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span className="sr-only">Previous</span>
+                </a>
+                <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span className="sr-only">Next</span>
+                </a>
+            </div>
+              
             <section className="container-mision">
               <h2 className="titulo">
                 Misión 
@@ -58,3 +106,12 @@ class Inicio extends Component {
 }
   
 export default Inicio;
+
+
+/*
+<div className="carousel-container-image">
+                  <div className="carousel-container-boton"></div>
+                  <div className="carousel-container-boton"></div>
+                  <div className="carousel-container-boton"></div>
+              </div>
+*/

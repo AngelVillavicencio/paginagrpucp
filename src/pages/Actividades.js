@@ -8,8 +8,35 @@ import Testimonio from '../components/Testimonio';
 
 const Actividades = ()=>{
 
-    let talleres=[
+  /*const Talleres = [
+    {
+      titulo:'Taller de Python',
+      descripcion : 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error veniam magni hic vitae autem, ex optio? Quas mollitia neque dolore possimus nobis! Non sed enim sapiente ad, incidunt officiis mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, earum quaerat voluptatibus aperiam doloribus itaque dolore, dolorem laboriosam similique, enim officia hic velit ratione ullam eum maxime consequatur ex error.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laboriosam laborum consequatur aliquam eos vel sunt voluptatibus veritatis quis eum maxime, ipsam expedita neque, enim fuga voluptatem! Sequi, quasi veritatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere deleniti unde libero, rerum sunt enim magnam officia laudantium sint aspernatur, nemo eius expedita fuga, ipsum esse ad illo consectetur perspiciatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, corrupti voluptatum? Nihil atque quaerat vel in, officia doloremque quas vero voluptatem eveniet voluptas recusandae porro deserunt necessitatibus facilis corrupti qui.',
+      Sesiones: [
         {
+          titulo_sesion: 'Sesion1: Introdudcción al lenguaje',
+          puntosAtratar: [
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cumque cum eveniet deserunt officiis eius magni quibusdam? Ipsum quod, rerum voluptate ipsam quos, perspiciatis itaque numquam voluptatem vel voluptatum quibusdam.',
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cumque cum eveniet deserunt officiis eius magni quibusdam? Ipsum quod, rerum voluptate ipsam quos, perspiciatis itaque numquam voluptatem vel voluptatum quibusdam',
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cumque cum eveniet deserunt officiis eius magni quibusdam? Ipsum quod, rerum voluptate ipsam quos, perspiciatis itaque numquam voluptatem vel voluptatum quibusdam',
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cumque cum eveniet deserunt officiis eius magni quibusdam? Ipsum quod, rerum voluptate ipsam quos, perspiciatis itaque numquam voluptatem vel voluptatum quibusdam'
+          ]
+        },
+        {
+          titulo_sesion: 'Sesion2: Introdudcción al lenguaje2',
+          puntosAtratar: [
+            '2Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cumque cum eveniet deserunt officiis eius magni quibusdam? Ipsum quod, rerum voluptate ipsam quos, perspiciatis itaque numquam voluptatem vel voluptatum quibusdam.',
+            '2Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cumque cum eveniet deserunt officiis eius magni quibusdam? Ipsum quod, rerum voluptate ipsam quos, perspiciatis itaque numquam voluptatem vel voluptatum quibusdam',
+            '2Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cumque cum eveniet deserunt officiis eius magni quibusdam? Ipsum quod, rerum voluptate ipsam quos, perspiciatis itaque numquam voluptatem vel voluptatum quibusdam',
+            '2Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cumque cum eveniet deserunt officiis eius magni quibusdam? Ipsum quod, rerum voluptate ipsam quos, perspiciatis itaque numquam voluptatem vel voluptatum quibusdam'
+          ]
+        }
+      ]
+    }
+  ]*/
+
+    let talleres=[];
+        /*{
             titulo:'Taller de C++',
             descripcion:'Taller donde aprenderás Python 3 de una manera más rápida y efectiva. 4 semanas de pura emoción.',
             urlPhoto:'',
@@ -76,10 +103,10 @@ const Actividades = ()=>{
             descripcion:'Taller donde aprenderás PYTHON!!! 3 SEMANAS DE PURO CODIGOOO PERRO!!',
             urlPhoto:''
         }
-    ]
+    ]*/
 
-    let eventos=[
-        {
+    let eventos=[];
+        /*{
             titulo:'Hablando de la Web',
             descripcion:'En este evento hablaremos de cómo es el mundo WEB y cómo iniciarte en este mundo!',
             urlPhoto:''
@@ -94,7 +121,7 @@ const Actividades = ()=>{
             descripcion:'En este evento hablaremos de cómo es el mundo WEB y cómo iniciarte en este mundo!',
             urlPhoto:''
         },
-    ]
+    ]*/
 
     let history = useHistory();
     let {url}=useRouteMatch();
@@ -126,7 +153,7 @@ const Actividades = ()=>{
                             <div className="card-body taller-body">
                                 <h5 className="card-title">{taller.titulo}</h5>
                                 <p className="card-text">
-                                {taller.descripcion}
+                                {taller.descripcion}  
                                 </p>
                             </div>
                             <a className="btn taller-boton" onClick={()=>history.push(`${url}/taller/${taller.titulo}`)}> 
@@ -135,6 +162,15 @@ const Actividades = ()=>{
                         </div>
                         );
                     })
+                }
+                {
+                  talleres.length == 0 &&(
+                    <p className="no-available">
+                      ¡ PRÓXIMAMENTE !
+                    </p>
+
+
+                  )
                 }
               </div>
             </div>
@@ -171,6 +207,15 @@ const Actividades = ()=>{
                             </div>
                         );
                     })
+                }
+                {
+                  eventos.length == 0 &&(
+                    <p className="no-available">
+                      ¡ PRÓXIMAMENTE !
+                    </p>
+
+
+                  )
                 }
               </div>
             </div>

@@ -90,28 +90,28 @@ const Contacto = () => {
                   </div>
                 </div>
               </div>
-            </form>
+              </form>
           </div>
-          <div className="col colinfo">
-            {/* Información */}
-            <div className="info">
-              <h2>Información de contacto</h2>
-              <div className="div-info">
-                <h3>Dirección</h3>
-                <p>Dirección fake</p>
-              </div>
-              <div className="div-info">
-                <h3>Teléfono</h3>
-                <p>9549234449 - 934123424</p>
-              </div>
-              <div className="div-info">
-                <h3>Correo</h3>
-                <p>MiPresidenteEsFelix,NoMerino@abajoelcongreso.edu.pe</p>
+            <div className="col colinfo">
+              {/* Información */}
+              <div className="info">
+                <h2>Información de contacto</h2>
+                <div className="div-info">
+                  <h3>Dirección</h3>
+                  <p>Av. Universitaria 1801, San Miguel 15088</p>
+                </div>
+                <div className="div-info">
+                  <h3>Celular</h3>
+                  <p>+51 914 333 969</p>
+                </div>
+                <div className="div-info">
+                  <h3>Correo</h3>
+                  <p>nodisponible@pucp.edu.pe</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
     </React.Fragment>
   );
 };
