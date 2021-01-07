@@ -29,6 +29,27 @@ div h1 {
   border-bottom-left-radius: 20px;
   background-color: #fcfcfc;
 }
+
+.formulario-enviado {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.formulario-enviado h2 {
+  background-color: transparent;
+  color: black;
+  font-family: "Nunito";
+  padding-left: 35px;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 35px;
+  margin-bottom: 35px;
+}
 .formulario h2 {
   background-color: transparent;
   color: black;

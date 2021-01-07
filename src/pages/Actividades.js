@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import {useHistory, useRouteMatch} from 'react-router-dom'
 import image_Cplus from '../assets/images/taller-c++.png';
+import gif_proximamente from '../assets/images/actividades/proximamente.gif'
 import './Actividades.css';
 import Testimonio from '../components/Testimonio';
 
@@ -210,10 +211,11 @@ const Actividades = ()=>{
                 }
                 {
                   eventos.length == 0 &&(
-                    <p className="no-available">
-                      ¡ PRÓXIMAMENTE !
-                    </p>
-
+                    <React.Fragment>
+                    
+                    <img src={gif_proximamente} alt="loading..." />
+                    </React.Fragment>
+                    
 
                   )
                 }

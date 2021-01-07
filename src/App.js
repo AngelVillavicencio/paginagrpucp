@@ -9,12 +9,15 @@ import Proyectos from './pages/Proyectos.js';
 import Contacto from './pages/Contacto.js';
 import Postulacion from './pages/Postulacion.js';
 import Inscripcion from './pages/Inscripcion.js';
+import NotFound from './pages/NotFound.js';
 import Layout from './components/Layout.js';
+import ScrollToTop from './components/ScrollToTop.js'
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 const App = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop></ScrollToTop>
       <Layout>
         <Switch>
           <Route exact path="/" component={Inicio} />
@@ -26,6 +29,7 @@ const App = () => {
           <Route path="/postular" component={Postulacion} />
           <Route path="/contacto" component={Contacto} />
           <Route path="/inscripcion" component={Inscripcion} />
+          <Route component={NotFound}/>
         </Switch>
       </Layout>
     </BrowserRouter>
