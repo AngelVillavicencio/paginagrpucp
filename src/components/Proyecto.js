@@ -12,13 +12,14 @@ const Proyecto = (props) => {
       <Grid
         container
         item
-        xs={4}
+        xs={12}
+        sm={4}
         alignItems="center"
         className="imagen-background"
       >
         <img className="imagen" src={props.imagen} alt="imagen" />
       </Grid>
-      <Grid item xs={8}>
+      <Grid item sm={8} xs={12}>
         <Container className="contenido">
           <p className="titulo-carta">{props.titulo}</p>
           <p className="descripcion-proyecto">{props.descripcion}</p>
