@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;900&display=swap');
 
 .carta {
   display: flex;
   margin-bottom: 100px;
-  min-height: 300px;
+  min-height: 250px;
 }
 .imagen-background {
   background-color: #f8fcff;
 }
 .contenido {
   background-color: #003459;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   height: 100%;
   padding: 10px;
 }
@@ -20,7 +20,7 @@
 .titulo-carta {
   font-size: 25px;
   font-weight: 700;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 20px;
 }
 .descripcion-proyecto {
@@ -51,7 +51,7 @@
     height: 200px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .titulo-carta {
     font-size: 16px;
     margin-bottom: 10px;
@@ -60,7 +60,6 @@
     font-size: 15px;
   }
   .carta {
-    height: 120px;
-    margin-bottom: 50px;
+    height: 400px;
   }
 }
