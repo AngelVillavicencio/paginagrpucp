@@ -141,7 +141,7 @@ const Contacto = () => {
                 </div>
                 <div className="div-info">
                   <h3>Correo</h3>
-                  <p>nodisponible@pucp.edu.pe</p>
+                  <p>grupo-robotica@pucp.edu.pe</p>
                 </div>
               </div>
             </div>
