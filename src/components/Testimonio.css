@@ -27,8 +27,9 @@
   display: block;
   max-width: 400px;
   overflow: hidden;
-  width: 100%;
   background-color: #fff;
+  object-fit: contain;
+  margin: auto;
 }
 
 .MuiGrid-item {
@@ -37,6 +38,7 @@
 
 @media (max-width: 596px) {
   .testimonio-imagen {
+    height: 150px;
     margin-bottom: 40px;
   }
 }

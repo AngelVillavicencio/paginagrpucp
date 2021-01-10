@@ -126,6 +126,13 @@
   overflow: hidden;
 }
 
+.card-miembro-foto-perfil-presidente {
+  width: 250px;
+}
+
+.miembros-photo-miniatura {
+  object-fit: cover;
+}
 @media (max-width: 425px) {
   .card-miembro img {
     height: 60%;
@@ -172,6 +179,9 @@
 
   .card-miembro-foto-perfil {
     width: 120px;
+  }
+  .card-miembro-foto-perfil-presidente {
+    width: 200px;
   }
 
   .tamano-imagen {

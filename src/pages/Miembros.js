@@ -22,7 +22,7 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/felix.calla/',
             urlLinkedin:'https://www.linkedin.com/in/felix-calla-sime-117896200/',
             urlTwitter:'#',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/perfil_angel.jpg?alt=media&token=35729466-7a64-47c3-a99f-af9dafa21e35'
+            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Felix%20Calla.jpeg?alt=media&token=198d5534-23d5-4483-8c1b-b9fae80ea7f8'
         },
         {
             id:2,
@@ -34,7 +34,7 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/cristhianmallquicastro/?hl=es-la',
             urlLinkedin:'#',
             urlTwitter:'#',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/perfil_angel.jpg?alt=media&token=35729466-7a64-47c3-a99f-af9dafa21e35'
+            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/CristhianMallqui.jpeg?alt=media&token=ea89744f-89c7-4f29-9ce6-7ad894b1ff8a'
         },
         {
             id:3,
@@ -53,7 +53,7 @@ class Miembros extends Component {
             nombres:'Angel Arturo',
             apellidos:'Villavicencio Muñoz',
             cargo:'Jefe de proyectos',
-            fraseDescriptiva:'RAAAAAAAAAAAAAA',
+            fraseDescriptiva:'No pain, No gain',
             urlFacebook:'https://www.facebook.com/angelarturo.villavicenciomunoz',
             urlInstagram:'https://www.instagram.com/angell.villavicencio/?hl=es-la',
             urlLinkedin:'www.linkedin.com/in/angelvillavicencio',
@@ -70,7 +70,7 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/greg.chd/?hl=es-la',
             urlLinkedin:'#',
             urlTwitter:'https://twitter.com/gregchd',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/perfil_angel.jpg?alt=media&token=35729466-7a64-47c3-a99f-af9dafa21e35'
+            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/greg.jpg?alt=media&token=3e767109-2265-4187-a601-99f7a1b0822e'
         },
         {
             id:6,
@@ -82,7 +82,7 @@ class Miembros extends Component {
             urlInstagram:'#',
             urlLinkedin:'https://www.linkedin.com/in/antony-jes%C3%BAs-ar%C3%A9valo-crist%C3%B3bal-1a196719a/',
             urlTwitter:'#',
-            urlPhoto:''
+            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/antony.jpg?alt=media&token=2ceee53a-89af-4838-b0f2-b17157f01f24'
         },
         {
             id:7,
@@ -106,19 +106,139 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/paulcanasa/?hl=es-la',
             urlLinkedin:'https://www.linkedin.com/in/paul-rodrigo-44b961196/',
             urlTwitter:'#',
-            urlPhoto:''
+            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/paul.jpg?alt=media&token=091cc917-a0bf-49cb-8fb5-1252dd7096be'
         },
         {
             id:9,
-            nombres:'Giancarlo Josue',
-            apellidos:'Agurto Tapia',
+            nombres:'Roxana',
+            apellidos:'Tinoco',
             cargo:'-',
             fraseDescriptiva:'SAGASTIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII',
-            urlFacebook:'https://www.facebook.com/giancarlo2000',
+            urlFacebook:'https://www.facebook.com/roxana.pereztinoco',
             urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
             urlLinkedin:'',
             urlTwitter:'',
-            urlPhoto:''
+            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/roxana.jpg?alt=media&token=2f7ff263-4681-4593-bb1d-1815b10808d4'
+        },
+        {
+            id:9,
+            nombres:'Daniel',
+            apellidos:'Menacho',
+            cargo:'-',
+            fraseDescriptiva:'SAGASTIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII',
+            urlFacebook:'https://www.facebook.com/daniel.menachoordonez',
+            urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
+            urlLinkedin:'',
+            urlTwitter:'',
+            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Daniel_Menacho.jpeg?alt=media&token=fbd988c9-995b-4331-aa8f-fbf1f0f8188a'
+        },
+        {
+            id:9,
+            nombres:'Diego',
+            apellidos:'Guzmán',
+            cargo:'-',
+            fraseDescriptiva:'SAGASTIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII',
+            urlFacebook:'https://www.facebook.com/diego.guzmanllontop.7',
+            urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
+            urlLinkedin:'',
+            urlTwitter:'',
+            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Diego%20Guzman.JPG?alt=media&token=4ff98557-0a91-43ad-bfb4-e1fd5cb4cc38'
+        },
+        {
+            id:9,
+            nombres:'Dario',
+            apellidos:'Huanca',
+            cargo:'-',
+            fraseDescriptiva:'SAGASTIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII',
+            urlFacebook:'https://www.facebook.com/dario.huanca.52',
+            urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
+            urlLinkedin:'',
+            urlTwitter:'',
+            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Dario_Huanca.jpeg?alt=media&token=f53a34b9-8393-49b0-b996-90fabc555a16'
+        },
+        {
+            id:10,
+            nombres:'Fiorella',
+            apellidos:'Urbina',
+            cargo:'-',
+            fraseDescriptiva:'SAGASTIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII',
+            urlFacebook:'https://www.facebook.com/fiorella.urbina.5',
+            urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
+            urlLinkedin:'',
+            urlTwitter:'',
+            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Fiorella%20Urbina.jpg?alt=media&token=6c86bf36-6d14-4edc-8fee-fbfe696dbbfc'
+        },
+        {
+            id:9,
+            nombres:'Hugo',
+            apellidos:'Espinoza',
+            cargo:'-',
+            fraseDescriptiva:'SAGASTIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII',
+            urlFacebook:'https://www.facebook.com/nestorhugo.espinozaurco',
+            urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
+            urlLinkedin:'',
+            urlTwitter:'',
+            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Hugo_Espinoza.jpg?alt=media&token=da5a6757-26a9-4f9b-9a14-256f05752c7a'
+        },
+        {
+            id:9,
+            nombres:'Marcelo',
+            apellidos:'Ronceros',
+            cargo:'-',
+            fraseDescriptiva:'SAGASTIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII',
+            urlFacebook:'https://www.facebook.com/marceloroncerosc',
+            urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
+            urlLinkedin:'',
+            urlTwitter:'',
+            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Marcelo%20Ronceros.JPG?alt=media&token=b5546e02-8f94-414e-a2b7-ddccd1785574'
+        },
+        {
+            id:9,
+            nombres:'Roberto',
+            apellidos:'Raez',
+            cargo:'-',
+            fraseDescriptiva:'SAGASTIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII',
+            urlFacebook:'https://www.facebook.com/roberto.raezpereyra',
+            urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
+            urlLinkedin:'',
+            urlTwitter:'',
+            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Roberto.jpg?alt=media&token=6d3c9b62-ec24-4e7a-a0bb-e58afe444049'
+        },
+        {
+            id:9,
+            nombres:'Sergio',
+            apellidos:'Tello',
+            cargo:'-',
+            fraseDescriptiva:'SAGASTIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII',
+            urlFacebook:'https://www.facebook.com/sergio.tello.98434',
+            urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
+            urlLinkedin:'',
+            urlTwitter:'',
+            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/SergioTello.jpg?alt=media&token=4a95bfe5-f26f-4970-8122-93de47d4f3ad'
+        },
+        {
+            id:9,
+            nombres:'Sebastian',
+            apellidos:'Chacón',
+            cargo:'-',
+            fraseDescriptiva:'SAGASTIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII',
+            urlFacebook:'https://www.facebook.com/SebastianJaimesChacon',
+            urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
+            urlLinkedin:'',
+            urlTwitter:'',
+            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/sebastian.jpg?alt=media&token=8628f2ee-31e3-4aa3-839f-3869a28f99c2'
+        },
+        {
+            id:9,
+            nombres:'Diego',
+            apellidos:'Sanchez',
+            cargo:'-',
+            fraseDescriptiva:'SAGASTIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII',
+            urlFacebook:'https://www.facebook.com/diego.sanchezmichelena',
+            urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
+            urlLinkedin:'',
+            urlTwitter:'',
+            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/diego%20Sanchez.jpg?alt=media&token=ef3c6c85-7e80-4c30-9ef2-f8b2fe934633'
         },
     ];
     
@@ -138,15 +258,15 @@ class Miembros extends Component {
                 <div className="mesa row">
                     <div className="col-12">
                             <div className="card-presi">
-                                <img src={cristian}></img>
+                                <img className="card-miembro-foto-perfil-presidente" src={this.miembros[0].urlPhoto}></img>
                                 <div className="card-miembro-info">
                                     <h4>{this.miembros[0].nombres} {this.miembros[0].apellidos}</h4>
                                     <h5>presidente</h5>
                                     <h6>“Aveces se me sale un GA”</h6>
                                     <div className="card-miembro-icons">
-                                    <a href="#"><img src={icon_fb}></img></a>
-                                    <a href="#"><img src={icon_ig}></img></a>
-                                    <a href="#"><img src={icon_tw}></img></a>
+                                    <a target="_blank" href={this.miembros[0].urlFacebook}><img src={icon_fb}></img></a>
+                                    <a target="_blank" href={this.miembros[0].urlInstagram}><img src={icon_ig}></img></a>
+                                    <a target="_blank" href={this.miembros[0].urlTwitter}><img src={icon_tw}></img></a>
                                 </div>
                                 </div>
                             </div>
@@ -187,11 +307,14 @@ class Miembros extends Component {
                 <div className="flex-row flex-wrap d-flex justify-content-around miembros">
                     
                     {
-                        this.miembros.map((miembro)=>{
+                        this.miembros.map((miembro,index)=>{
 
-                            return(
-                                <a href={miembro.urlFacebook}><img src={miembro.urlPhoto} ></img></a>
-                            );
+                            if (index > 4) {
+                                return(
+                                <a target="_blank" href={miembro.urlFacebook}><img src={miembro.urlPhoto} className="miembros-photo-miniatura" ></img></a>
+                                );
+                            }
+                            
 
                         },5)
                     }

@@ -1,6 +1,7 @@
 import Imagen from '../assets/images/proyectos/OpenGL-00.jpg';
 import Robot from '../assets/images/proyectos/robot.jpg';
 import Robot_soccer from '../assets/images/proyectos/robot-soccer.jpg'
+import Pagina from '../assets/images/proyectos/proyecto_pagina.PNG'
 import React from 'react';
 import './Proyectos.css';
 import Proyecto from '../components/Proyecto';
@@ -63,7 +64,7 @@ const Proyectos = () => {
             titulo="Pagina Web del GRPUCP"
             descripcion="Este proyecto fue desarrollado por los integrantes del GRPUCP con el objetivo de mejorar nuestros conocimientos en el area de desarrollo Web."
             invertido
-            imagen={Robot}
+            imagen={Pagina}
           />
         </React.Fragment>
       )}

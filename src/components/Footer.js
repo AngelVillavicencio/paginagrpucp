@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import icon_pucp from '../assets/images/logoblanco.png';
 import FacebookIcon from '@material-ui/icons/Facebook';
-import TwitterIcon from '@material-ui/icons/Twitter';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import './Footer.css';
 class Footer extends Component {
@@ -31,12 +31,7 @@ class Footer extends Component {
                     style={{ color: 'white' }}
                   />
                 </a>
-                <a href="">
-                  <TwitterIcon
-                    className="footer-icon"
-                    style={{ color: 'white' }}
-                  />
-                </a>
+                
               </div>
               <div className="col footer-auspicios">
                 <img className="image-icon-pucp" src={icon_pucp}></img>
@@ -50,3 +45,9 @@ class Footer extends Component {
 }
 
 export default Footer;
+/*<a href="">
+                  <LinkedInIcon
+                    className="footer-icon"
+                    style={{ color: 'white' }}
+                  />
+                </a> */

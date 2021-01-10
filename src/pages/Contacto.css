@@ -186,7 +186,7 @@ textarea {
   margin-bottom: 55px;
 }
 
-@media (max-width: 728px) {
+@media (max-width: 769px) {
   .todo {
     margin: 50px 0px;
     min-height: 90vh;
@@ -198,5 +198,25 @@ textarea {
     font-family: "Montserrat";
     margin-left: 50px;
     margin-bottom: 55px;
+  }
+  .soyunboton {
+    background-color: #f0ba50;
+    display: inline;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 20px;
+    margin: 20px 0px 20px 0px;
+  }
+  .botondeform {
+    background-color: transparent;
+    text-decoration: none;
+    border: 0px;
+    width: 70%;
+    color: #00171f;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 9px;
+    text-align: center;
+    padding: 0px;
   }
 }

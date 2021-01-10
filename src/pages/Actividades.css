@@ -94,11 +94,16 @@
 .no-available {
   font-size: 70px;
 }
+.proximamente {
+  width: 750px;
+}
 @media (max-width: 425px) {
   .talleres-tittle h2 {
     font-size: 32px;
   }
-
+  .proximamente {
+    width: 318px;
+  }
   .line {
     background-color: #f2ae22;
     min-width: 320px;

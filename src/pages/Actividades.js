@@ -166,9 +166,10 @@ const Actividades = ()=>{
                 }
                 {
                   talleres.length == 0 &&(
-                    <p className="no-available">
-                      ¡ PRÓXIMAMENTE !
-                    </p>
+                    <React.Fragment>
+                    
+                    <img className="proximamente" src={gif_proximamente} alt="loading..." />
+                    </React.Fragment>
 
 
                   )
@@ -213,7 +214,7 @@ const Actividades = ()=>{
                   eventos.length == 0 &&(
                     <React.Fragment>
                     
-                    <img src={gif_proximamente} alt="loading..." />
+                    <img className="proximamente" src={gif_proximamente} alt="loading..." />
                     </React.Fragment>
                     
 
