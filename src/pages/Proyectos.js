@@ -2,6 +2,7 @@ import Imagen from '../assets/images/proyectos/OpenGL-00.jpg';
 import Robot from '../assets/images/proyectos/robot.jpg';
 import Robot_soccer from '../assets/images/proyectos/robot-soccer.jpg'
 import Pagina from '../assets/images/proyectos/proyecto_pagina.PNG'
+import Rover from '../assets/images/proyectos/Rover.png'
 import React from 'react';
 import './Proyectos.css';
 import Proyecto from '../components/Proyecto';
@@ -37,9 +38,9 @@ const Proyectos = () => {
       {vista === 'Desarrollo' ? (
         <React.Fragment>
           <Proyecto
-            titulo="Rovert"
-            descripcion="El Rovert -rover- es un proyecto robótico a modo de vehículo con la capacidad de desplazarse sobre superficies de cualquier tipo, usado normalmente para exploración de planetas."
-            imagen={Robot}
+            titulo="Rover"
+            descripcion="El Rover es un proyecto robótico a modo de vehículo con la capacidad de desplazarse sobre superficies de cualquier tipo, usado normalmente para exploración de planetas."
+            imagen={Rover}
           />
           <Proyecto
             titulo="Juego OpenGL"
@@ -56,7 +57,7 @@ const Proyectos = () => {
         <React.Fragment>
           <Proyecto
             titulo="Proyecto terminado: Robot sumo"
-            descripcion="Los robot sumos (o sumobots)son proyectos de competencia autónomos con la finalidad de empujar a un contrincante y sacarlo de un espacio delimitado llamado dohyo."
+            descripcion="Los robot sumos (o sumobots) son proyectos de competencia autónomos con la finalidad de empujar a un contrincante y sacarlo de un espacio delimitado llamado dohyo."
             invertido
             imagen={Robot}
           />

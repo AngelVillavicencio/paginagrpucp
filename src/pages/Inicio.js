@@ -96,7 +96,7 @@ class Inicio extends Component {
                 <li>Ganar concursos dentro y fuera de la universidad</li>
                 <li>Apoyar desde la experiencia a alumnos de ciclos menores.</li>
                 <li>Incentivar el aprendizaje autónomo.</li>
-                <li>Escapar de latinoamerica</li>
+                
               </ul>
               <Link className="boton-interesado" to="/postular">¿Interesado?</Link>
             </section>

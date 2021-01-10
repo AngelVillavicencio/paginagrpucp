@@ -74,7 +74,7 @@ const Testimonio = () => {
                   <p className="testimonio-text">
                     “Agradezco mucho al GR. Ellos son comprensibles con los horarios de los estudiantes al momento de brindar asesorías para el curso de Fundamentos de Programación. Además, ellos resuelven problemas con dificultad distinta y absuelven cualquier tipo de duda(desde la más "simple" hasta la más compleja).”
                   </p>
-                  <p className="testimonio-text">Mila Healy</p>
+                  <p className="testimonio-text">Micaela Castilla</p>
                 </Grid>
               </Grid>
             ) : null}
