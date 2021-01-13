@@ -135,7 +135,7 @@ const Actividades = ()=>{
           <div className="container-fluid">
             <div className="row talleres">
               <div className="talleres-tittle">
-                <h2>Talleres Disponibles</h2>
+                <h2>Eventos Disponibles</h2>
                 <div className="line"></div>
               </div>
             </div>
@@ -165,15 +165,16 @@ const Actividades = ()=>{
                     })
                 }
                 {
-                  talleres.length == 0 &&(
-                    <React.Fragment>
+                  eventos.length == 0 &&(
                     
-                    <img className="proximamente" src={gif_proximamente} alt="loading..." />
-                    </React.Fragment>
-
-
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd7jbp21age3BWTHu0SOmZIXOtDE21mhEDhPFrRQt8-j5LGuQ/viewform?embedded=true" width="100%" height="850" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+                    
+                    
+                    
+/* <img className="proximamente" src={gif_proximamente} alt="loading..." />*/
                   )
                 }
+                
               </div>
             </div>
           </div>
@@ -182,7 +183,7 @@ const Actividades = ()=>{
           <div className="container-fluid">
             <div className="row talleres">
               <div className="talleres-tittle">
-                <h2>Eventos Disponibles</h2>
+                <h2>Talleres Disponibles</h2>
                 <div className="line"></div>
               </div>
             </div>
@@ -211,13 +212,12 @@ const Actividades = ()=>{
                     })
                 }
                 {
-                  eventos.length == 0 &&(
+                  talleres.length == 0 &&(
                     <React.Fragment>
-                    
-                    <img className="proximamente" src={gif_proximamente} alt="loading..." />
+                      <img className="proximamente" src={gif_proximamente} alt="loading..." />
                     </React.Fragment>
-                    
 
+                    
                   )
                 }
               </div>

@@ -1,0 +1,6 @@
+.Inscripcion {
+  min-height: 1700px;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+}

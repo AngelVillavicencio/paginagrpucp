@@ -32,6 +32,7 @@
 
 .cards-talleres {
   margin-top: 50px;
+  width: 100%;
 }
 .taller {
   margin: 25px;
@@ -110,5 +111,8 @@
   }
   .no-available {
     font-size: 20px;
+  }
+  .cards-talleres {
+    width: 100%;
   }
 }

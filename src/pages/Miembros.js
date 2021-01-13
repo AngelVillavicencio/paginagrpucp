@@ -17,7 +17,7 @@ class Miembros extends Component {
             nombres:'Felix',
             apellidos:'Calla Sime',
             cargo:'Presidente',
-            fraseDescriptiva:'MERINOOO',
+            fraseDescriptiva:'Toda teoría siempre debe ser acompañada por la práctica',
             urlFacebook:'https://www.facebook.com/felix.callasime',
             urlInstagram:'https://www.instagram.com/felix.calla/',
             urlLinkedin:'https://www.linkedin.com/in/felix-calla-sime-117896200/',
@@ -29,7 +29,7 @@ class Miembros extends Component {
             nombres:'Cristhian Kevin',
             apellidos:'Mallqui Castro',
             cargo:'Vicepresidente',
-            fraseDescriptiva:'PREGUNTARLEEE',
+            fraseDescriptiva:'Tener éxito no es aleatorio, es una variable que depende del esfuerzo',
             urlFacebook:'https://www.facebook.com/cristhian.mallquicastro',
             urlInstagram:'https://www.instagram.com/cristhianmallquicastro/?hl=es-la',
             urlLinkedin:'#',
@@ -41,7 +41,7 @@ class Miembros extends Component {
             nombres:'Renzo Martin',
             apellidos:'Mendoza Rabanal',
             cargo:'Coordinador General',
-            fraseDescriptiva:'Siempre atento :v',
+            fraseDescriptiva:'Siempre atento',
             urlFacebook:'https://www.facebook.com/renzo.mendoza.984',
             urlInstagram:'#',
             urlLinkedin:'linkedin.com/in/renzo-mendoza-rabanal-564a0b199',
@@ -65,7 +65,7 @@ class Miembros extends Component {
             nombres:'Gregory Sebastian',
             apellidos:'Chahuayla Damas',
             cargo:'Coordinador de audiovisuales',
-            fraseDescriptiva:'BOTA TU GAAAAAA',
+            fraseDescriptiva:'Si lo puedes soñar, lo puedes lograr',
             urlFacebook:'https://www.facebook.com/Gregory.Chahuayla',
             urlInstagram:'https://www.instagram.com/greg.chd/?hl=es-la',
             urlLinkedin:'#',
@@ -262,7 +262,7 @@ class Miembros extends Component {
                                 <div className="card-miembro-info">
                                     <h4>{this.miembros[0].nombres} {this.miembros[0].apellidos}</h4>
                                     <h5>presidente</h5>
-                                    <h6>“Aveces se me sale un GA”</h6>
+                                    <h6>{this.miembros[0].fraseDescriptiva}</h6>
                                     <div className="card-miembro-icons">
                                     <a target="_blank" href={this.miembros[0].urlFacebook}><img src={icon_fb}></img></a>
                                     <a target="_blank" href={this.miembros[0].urlInstagram}><img src={icon_ig}></img></a>
