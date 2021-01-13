@@ -52,7 +52,7 @@ const Testimonio = () => {
   return (
     <div className="testimonio-container">
       <AutoPlaySwipeableViews
-        interval={5000}
+        interval={20000}
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
         index={activeStep}
         onChangeIndex={handleStepChange}

@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Inicio from "./pages/Inicio.js";
 import './App.css'
 import Actividad_taller from "./pages/Actividad_taller.js";
+import ProyectoDetail from "./pages/ProyectoDetail.js";
 import Actividad_evento from "./pages/Actividad_evento.js"
 import Actividades from './pages/Actividades.js';
 import Miembros from './pages/Miembros.js';
@@ -12,16 +13,19 @@ import Inscripcion from './pages/Inscripcion.js';
 import NotFound from './pages/NotFound.js';
 import Layout from './components/Layout.js';
 import ScrollToTop from './components/ScrollToTop.js'
-
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 const App = () => {
+
+  const [modal, setModal] = useState(false);
+
   return (
     <BrowserRouter>
       <ScrollToTop></ScrollToTop>
       <Layout>
         <Switch>
           <Route exact path="/" component={Inicio} />
-          <Route path="/proyectos" component={Proyectos} />
+          <Route path="/proyectos/details/:id" component={ProyectoDetail} />
+          <Route exact path="/proyectos" component={Proyectos} />
           <Route path="/actividades/taller/:id" component={Actividad_taller} />
           <Route path="/actividades/evento/:id" component={Actividad_evento} />
           <Route path="/actividades" component={Actividades} />

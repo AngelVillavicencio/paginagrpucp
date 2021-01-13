@@ -168,9 +168,6 @@ const Actividades = ()=>{
                   eventos.length == 0 &&(
                     
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd7jbp21age3BWTHu0SOmZIXOtDE21mhEDhPFrRQt8-j5LGuQ/viewform?embedded=true" width="100%" height="850" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-                    
-                    
-                    
 /* <img className="proximamente" src={gif_proximamente} alt="loading..." />*/
                   )
                 }

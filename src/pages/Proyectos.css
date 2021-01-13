@@ -60,6 +60,10 @@
   color: white;
 }
 
+.proyecto-pointer {
+  cursor: pointer;
+}
+
 @media (max-width: 1024px) {
   .titulo-proyecto {
     font-size: 48px;

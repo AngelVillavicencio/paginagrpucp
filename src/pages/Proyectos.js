@@ -3,7 +3,9 @@ import Robot from '../assets/images/proyectos/robot.jpg';
 import Robot_soccer from '../assets/images/proyectos/robot-soccer.jpg'
 import Pagina from '../assets/images/proyectos/proyecto_pagina.PNG'
 import Rover from '../assets/images/proyectos/Rover.png'
-import React from 'react';
+import React, { Link } from 'react';
+import {useHistory, useRouteMatch} from 'react-router-dom'
+
 import './Proyectos.css';
 import Proyecto from '../components/Proyecto';
 const Proyectos = () => {
@@ -11,10 +13,15 @@ const Proyectos = () => {
   const cambiarVista = (tipo) => {
     setVista(tipo);
   };
+
+
+  let history = useHistory();
+  let { url } = useRouteMatch();
+  
   return (
     <div className="contenedor">
       <p className="titulo-proyecto" align="center">
-        <span>Proyectos </span>
+        <span>Proyectos</span>
       </p>
       <p className="subtitulo" align="center">
         <span
@@ -37,36 +44,49 @@ const Proyectos = () => {
       </p>
       {vista === 'Desarrollo' ? (
         <React.Fragment>
-          <Proyecto
-            titulo="Rover"
-            descripcion="El Rover es un proyecto robótico a modo de vehículo con la capacidad de desplazarse sobre superficies de cualquier tipo, usado normalmente para exploración de planetas."
-            imagen={Rover}
-          />
-          <Proyecto
-            titulo="Juego OpenGL"
-            descripcion="Los juegos en OpenGL son proyectos de recreación con gráficos avanzados basados en la especificación OpenGL."
-            imagen={Imagen}
-          />
-          <Proyecto
-            titulo="Robot soccer"
-            descripcion="Los robot soccer son proyectos de competencia autónomos o dirigidos especializados para asemejar un partido de futbol."
-            imagen={Robot_soccer}
-          />
+          <a onClick={()=>history.push(`${url}/details/1`)} className="proyecto-pointer" >
+            <Proyecto
+              titulo="Rover"
+              descripcion="El Rover es un proyecto robótico a modo de vehículo con la capacidad de desplazarse sobre superficies de cualquier tipo, usado normalmente para exploración de planetas."
+              imagen={Rover}
+            />
+          </a>
+          
+
+          <a onClick={()=>history.push(`${url}/details/2`)} className="proyecto-pointer" >
+            <Proyecto
+              titulo="Juego OpenGL"
+              descripcion="Los juegos en OpenGL son proyectos de recreación con gráficos avanzados basados en la especificación OpenGL."
+              imagen={Imagen}
+            />
+          </a>
+          <a onClick={()=>history.push(`${url}/details/3`)} className="proyecto-pointer">
+            <Proyecto
+              titulo="Robot soccer"
+              descripcion="Los robot soccer son proyectos de competencia autónomos o dirigidos especializados para asemejar un partido de futbol."
+              imagen={Robot_soccer}
+            />
+          </a>
         </React.Fragment>
       ) : (
-        <React.Fragment>
-          <Proyecto
-            titulo="Proyecto terminado: Robot sumo"
-            descripcion="Los robot sumos (o sumobots) son proyectos de competencia autónomos con la finalidad de empujar a un contrincante y sacarlo de un espacio delimitado llamado dohyo."
-            invertido
-            imagen={Robot}
-          />
-          <Proyecto
-            titulo="Pagina Web del GRPUCP"
-            descripcion="Este proyecto fue desarrollado por los integrantes del GRPUCP con el objetivo de mejorar nuestros conocimientos en el area de desarrollo Web."
-            invertido
-            imagen={Pagina}
-          />
+          <React.Fragment>
+          <a onClick={()=>history.push(`${url}/details/4`)} className="proyecto-pointer">
+              <Proyecto
+                titulo="Proyecto terminado: Robot sumo"
+                descripcion="Los robot sumos (o sumobots) son proyectos de competencia autónomos con la finalidad de empujar a un contrincante y sacarlo de un espacio delimitado llamado dohyo."
+                invertido
+                imagen={Robot}
+              />
+          </a>
+            
+          <a onClick={()=>history.push(`${url}/details/5`)} className="proyecto-pointer">
+            <Proyecto
+              titulo="Pagina Web del GRPUCP"
+              descripcion="Este proyecto fue desarrollado por los integrantes del GRPUCP con el objetivo de mejorar nuestros conocimientos en el area de desarrollo Web."
+              invertido
+              imagen={Pagina}
+            />
+          </a>
         </React.Fragment>
       )}
     </div>
