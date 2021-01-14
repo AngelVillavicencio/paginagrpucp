@@ -62,10 +62,11 @@ const Testimonio = () => {
         enableMouseEvents
       >
         {tutorialSteps.map((step, index) => (
-          <div key={step.label}>
+          <div key={step.label} >
             {Math.abs(activeStep - index) <= 2 ? (
               <Grid container className="testimonio-card">
-                <Grid item xs={12} sm={5}>
+                <Grid item xs={12} sm={5} style={{alignSelf:'center'}}>
+                  
                   <img
                     className="testimonio-imagen"
                     src={step.imgPath}
