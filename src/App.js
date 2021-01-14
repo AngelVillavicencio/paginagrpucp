@@ -16,7 +16,6 @@ import Layout from './components/Layout.js';
 import ScrollToTop from './components/ScrollToTop.js'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 const App = () => {
-
   return (
     <BrowserRouter>
       <ScrollToTop></ScrollToTop>
