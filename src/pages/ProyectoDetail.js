@@ -22,12 +22,11 @@ const ProyectoDetail = (props) => {
         },
         {
             nombre: "Rover",
-            urlVideo: "https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/proyectosdetails%2FRover.mp4?alt=media&token=38ff7743-cebe-42c9-a348-8220444ab59e"
-
+            urlVideo: <iframe width="80%" height="90%" src="https://www.youtube.com/embed/9xMnJMPlYjs?start=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         },
         {
             nombre: "Muscuy",
-            urlVideo: "https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/proyectosdetails%2FMuscuy.mp4?alt=media&token=3493a908-285f-409e-8ebe-d6cba376cec9"
+            urlVideo: <iframe width="80%" height="90%" src="https://www.youtube.com/embed/D8Jmh3BQ2fI?start=5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         },
         {
@@ -53,7 +52,10 @@ const ProyectoDetail = (props) => {
             <div className="ProyectoDetail">
                 <h1>{proyectos[id].nombre}</h1>
                 <div className="container">
-                    <div className="row video-container">
+                    <div className="video-container">
+                        
+
+
                         { proyectos[id].urlVideo === "" ? 
                             (
                                 <React.Fragment>
@@ -71,15 +73,17 @@ const ProyectoDetail = (props) => {
                             ):
                             (
                                 <React.Fragment>
-                                    <video width="100%" height="500" controls>
-                                        <source src={proyectos[id].urlVideo} type="video/mp4" />
-                                    </video>
+                                    
+
+                                    {proyectos[id].urlVideo}
+                                    
                                     <Link className="boton-return" to="/proyectos">
                                     Regresar
                                     </Link>
                                 </React.Fragment>
                             )
                         }
+
                         
                     </div>
                 </div>
@@ -90,3 +94,7 @@ const ProyectoDetail = (props) => {
 }
 
 export default ProyectoDetail;
+
+/*<video width="100%" height="500" controls>
+                                        <source src={proyectos[id].urlVideo} type="video/mp4" />
+                                    </video>*/

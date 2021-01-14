@@ -16,17 +16,20 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const tutorialSteps = [
   {
-    imgPath: "https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/extras%2FMila%20Healy.jpg?alt=media&token=8d50e567-106b-4a3e-8205-d86d22b82df9",
+    //imgPath: "https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/extras%2FMila%20Healy.jpg?alt=media&token=8d50e567-106b-4a3e-8205-d86d22b82df9",
+    imgPath:"https://i.imgur.com/4lfEZ8y.jpg",
     testimonio: "Agradezco mucho al GR. Ellos son comprensibles con los horarios de los estudiantes al momento de brindar asesorías para el curso de Fundamentos de Programación. Además, ellos resuelven problemas con dificultad distinta y absuelven cualquier tipo de duda(desde la más \"simple\" hasta la más compleja)",
     nombre: "Milagros Castilla"
   },
   {
-    imgPath: "https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/extras%2FPiero%20Laguna.jpg?alt=media&token=dfc72751-7d08-459d-8b50-0fb47b521196",
+    //imgPath: "https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/extras%2FPiero%20Laguna.jpg?alt=media&token=dfc72751-7d08-459d-8b50-0fb47b521196",
+    imgPath:"https://i.imgur.com/FwIDsOq.jpg",
     testimonio: "Estoy muy agradecido con el Grupo de Robótica por que me ayudaron a ver de una forma diferente la programación, de una forma divertida, no como los profesores, me demostraron cada cosa y con paciencia, todos aprendimos juntos gracias a sus buenas asesorías; pero lo más importante, es que hice buenos amigos gracias a ese grupo.",
     nombre: "Piero Laguna Obregon"
   },
   {
-    imgPath: "https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/extras%2FAngel%20Nizama.jpg?alt=media&token=4d9c9343-24ec-4b96-a993-d9b4bc20d0d3",
+    //imgPath: "https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/extras%2FAngel%20Nizama.jpg?alt=media&token=4d9c9343-24ec-4b96-a993-d9b4bc20d0d3",
+    imgPath:"https://i.imgur.com/1jFxJyu.jpg",
     testimonio: "Estoy agradecido con GRPUCP, porque gracias a ellos pude asimilar y comprender el curso de FUNPRO. A través de las experiencias que los integrantes del grupo contaban y todo el material y apoyo que brindaron me sentí asesorado y capacitado  para cada laboratorio del curso. Gracias a ellos también aprendí la utilidad del curso y su importancia a futuro. Siempre me hicieron sentir en confort y respondían de la mejor manera cada duda que pudiera tener. Excelente grupo",
     nombre: "Angel Nizama"
   }

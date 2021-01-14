@@ -22,7 +22,8 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/felix.calla/',
             urlLinkedin:'https://www.linkedin.com/in/felix-calla-sime-117896200/',
             urlTwitter:'#',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Felix%20Calla.jpeg?alt=media&token=198d5534-23d5-4483-8c1b-b9fae80ea7f8'
+            urlPhoto:'https://i.imgur.com/cgJ2s7x.jpg'
+        /* https://i.imgur.com/d6sJwTd.png */
         },
         {
             id:2,
@@ -34,7 +35,8 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/cristhianmallquicastro/?hl=es-la',
             urlLinkedin:'#',
             urlTwitter:'#',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/CristhianMallqui.jpeg?alt=media&token=ea89744f-89c7-4f29-9ce6-7ad894b1ff8a'
+            //urlPhoto: 'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/CristhianMallqui.jpeg?alt=media&token=ea89744f-89c7-4f29-9ce6-7ad894b1ff8a',
+            urlPhoto:'https://i.imgur.com/o5K1lDy.jpg'
         },
         {
             id:3,
@@ -46,7 +48,8 @@ class Miembros extends Component {
             urlInstagram:'#',
             urlLinkedin:'linkedin.com/in/renzo-mendoza-rabanal-564a0b199',
             urlTwitter:'#',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Renzo_Mendoza.png?alt=media&token=cb52ec70-0471-4d74-a3ad-056693f281fd'
+            //urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Renzo_Mendoza.png?alt=media&token=cb52ec70-0471-4d74-a3ad-056693f281fd'
+            urlPhoto:'https://i.imgur.com/hcXx0bc.png'
         },
         {
             id:4,
@@ -58,7 +61,8 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/angell.villavicencio/?hl=es-la',
             urlLinkedin:'www.linkedin.com/in/angelvillavicencio',
             urlTwitter:'#',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/perfil_angel.jpg?alt=media&token=35729466-7a64-47c3-a99f-af9dafa21e35'
+            //urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/perfil_angel.jpg?alt=media&token=35729466-7a64-47c3-a99f-af9dafa21e35'
+            urlPhoto:'https://i.imgur.com/LMLcpBKh.jpg'
         },
         {
             id:5,
@@ -70,7 +74,8 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/greg.chd/?hl=es-la',
             urlLinkedin:'#',
             urlTwitter:'https://twitter.com/gregchd',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/greg.jpg?alt=media&token=3e767109-2265-4187-a601-99f7a1b0822e'
+            //urlPhoto: 'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/greg.jpg?alt=media&token=3e767109-2265-4187-a601-99f7a1b0822e',
+            urlPhoto:'https://i.imgur.com/iTLKFWH.jpg'
         },
         {
             id:6,
@@ -82,7 +87,8 @@ class Miembros extends Component {
             urlInstagram:'#',
             urlLinkedin:'https://www.linkedin.com/in/antony-jes%C3%BAs-ar%C3%A9valo-crist%C3%B3bal-1a196719a/',
             urlTwitter:'#',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/antony.jpg?alt=media&token=2ceee53a-89af-4838-b0f2-b17157f01f24'
+            //urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/antony.jpg?alt=media&token=2ceee53a-89af-4838-b0f2-b17157f01f24'
+            urlPhoto:'https://i.imgur.com/9TyaX30.jpg'
         },
         {
             id:7,
@@ -94,7 +100,8 @@ class Miembros extends Component {
             urlInstagram:'-',
             urlLinkedin:'https://www.linkedin.com/in/cristian-igreda-436832199',
             urlTwitter:'#',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/IMG_20210103_231357_1.jpg?alt=media&token=da0a7b59-ada6-43bf-b065-e7fbf64eb2fe'
+            //urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/IMG_20210103_231357_1.jpg?alt=media&token=da0a7b59-ada6-43bf-b065-e7fbf64eb2fe'
+            urlPhoto:'https://i.imgur.com/jndJ17s.jpg'
         },
         {
             id:8,
@@ -106,7 +113,8 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/paulcanasa/?hl=es-la',
             urlLinkedin:'https://www.linkedin.com/in/paul-rodrigo-44b961196/',
             urlTwitter:'#',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/paul.jpg?alt=media&token=091cc917-a0bf-49cb-8fb5-1252dd7096be'
+            //urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/paul.jpg?alt=media&token=091cc917-a0bf-49cb-8fb5-1252dd7096be'
+            urlPhoto:"https://i.imgur.com/ERo0Tbo.jpg"
         },
         {
             id:9,
@@ -118,7 +126,9 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
             urlLinkedin:'',
             urlTwitter:'',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/roxana.jpg?alt=media&token=2f7ff263-4681-4593-bb1d-1815b10808d4'
+            //urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/roxana.jpg?alt=media&token=2f7ff263-4681-4593-bb1d-1815b10808d4'
+            urlPhoto:"https://i.imgur.com/vEZAWnR.jpg"
+        
         },
         {
             id:9,
@@ -130,7 +140,8 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
             urlLinkedin:'',
             urlTwitter:'',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Daniel_Menacho.jpeg?alt=media&token=fbd988c9-995b-4331-aa8f-fbf1f0f8188a'
+            //urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Daniel_Menacho.jpeg?alt=media&token=fbd988c9-995b-4331-aa8f-fbf1f0f8188a'
+            urlPhoto:"https://i.imgur.com/NcRk5NK.jpg"
         },
         {
             id:9,
@@ -142,7 +153,8 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
             urlLinkedin:'',
             urlTwitter:'',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Diego%20Guzman.JPG?alt=media&token=4ff98557-0a91-43ad-bfb4-e1fd5cb4cc38'
+            //urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Diego%20Guzman.JPG?alt=media&token=4ff98557-0a91-43ad-bfb4-e1fd5cb4cc38'
+            urlPhoto:"https://i.imgur.com/9ZGFNIi.jpg"
         },
         {
             id:9,
@@ -154,7 +166,8 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
             urlLinkedin:'',
             urlTwitter:'',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Dario_Huanca.jpeg?alt=media&token=f53a34b9-8393-49b0-b996-90fabc555a16'
+            //urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Dario_Huanca.jpeg?alt=media&token=f53a34b9-8393-49b0-b996-90fabc555a16'
+            urlPhoto:"https://i.imgur.com/KCqQtwj.jpg"
         },
         {
             id:10,
@@ -166,7 +179,8 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
             urlLinkedin:'',
             urlTwitter:'',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Fiorella%20Urbina.jpg?alt=media&token=6c86bf36-6d14-4edc-8fee-fbfe696dbbfc'
+            //urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Fiorella%20Urbina.jpg?alt=media&token=6c86bf36-6d14-4edc-8fee-fbfe696dbbfc'
+            urlPhoto:'https://i.imgur.com/8OBdHlN.jpg'
         },
         {
             id:9,
@@ -178,7 +192,8 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
             urlLinkedin:'',
             urlTwitter:'',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Hugo_Espinoza.jpg?alt=media&token=da5a6757-26a9-4f9b-9a14-256f05752c7a'
+            //urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Hugo_Espinoza.jpg?alt=media&token=da5a6757-26a9-4f9b-9a14-256f05752c7a'
+            urlPhoto:'https://i.imgur.com/JiwsPbL.jpg'
         },
         {
             id:9,
@@ -190,7 +205,8 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
             urlLinkedin:'',
             urlTwitter:'',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Marcelo%20Ronceros.JPG?alt=media&token=b5546e02-8f94-414e-a2b7-ddccd1785574'
+            //urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Marcelo%20Ronceros.JPG?alt=media&token=b5546e02-8f94-414e-a2b7-ddccd1785574'
+            urlPhoto:"https://i.imgur.com/8s8ny80.jpg"
         },
         {
             id:9,
@@ -202,7 +218,8 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
             urlLinkedin:'',
             urlTwitter:'',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Roberto.jpg?alt=media&token=6d3c9b62-ec24-4e7a-a0bb-e58afe444049'
+            //urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Roberto.jpg?alt=media&token=6d3c9b62-ec24-4e7a-a0bb-e58afe444049'
+            urlPhoto:"https://i.imgur.com/YYo5GjH.jpg"
         },
         {
             id:9,
@@ -214,7 +231,8 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
             urlLinkedin:'',
             urlTwitter:'',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/SergioTello.jpg?alt=media&token=4a95bfe5-f26f-4970-8122-93de47d4f3ad'
+            //urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/SergioTello.jpg?alt=media&token=4a95bfe5-f26f-4970-8122-93de47d4f3ad'
+            urlPhoto:"https://i.imgur.com/XK7NzvW.jpg"
         },
         {
             id:9,
@@ -226,7 +244,8 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
             urlLinkedin:'',
             urlTwitter:'',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/sebastian.jpg?alt=media&token=8628f2ee-31e3-4aa3-839f-3869a28f99c2'
+            //urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/sebastian.jpg?alt=media&token=8628f2ee-31e3-4aa3-839f-3869a28f99c2'
+            urlPhoto:"https://i.imgur.com/y2TQPEa.jpg"
         },
         {
             id:9,
@@ -238,7 +257,21 @@ class Miembros extends Component {
             urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
             urlLinkedin:'',
             urlTwitter:'',
-            urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/diego%20Sanchez.jpg?alt=media&token=ef3c6c85-7e80-4c30-9ef2-f8b2fe934633'
+            //urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/diego%20Sanchez.jpg?alt=media&token=ef3c6c85-7e80-4c30-9ef2-f8b2fe934633'
+            urlPhoto:"https://i.imgur.com/Za8ewgz.jpg"
+        },
+        {
+            id:9,
+            nombres:'Jafeht',
+            apellidos:'Bendezú Ibarra',
+            cargo:'-',
+            fraseDescriptiva:'SAGASTIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII',
+            urlFacebook:'https://www.facebook.com/jafehtmartin.bendezuibarra',
+            urlInstagram:'https://www.instagram.com/giancarlo.2000/?hl=es-la',
+            urlLinkedin:'',
+            urlTwitter:'',
+            //urlPhoto:'https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/diego%20Sanchez.jpg?alt=media&token=ef3c6c85-7e80-4c30-9ef2-f8b2fe934633'
+            urlPhoto:"https://i.imgur.com/wK7gU24h.jpg"
         },
     ];
     
@@ -247,9 +280,9 @@ class Miembros extends Component {
     render() {
       return (
         <React.Fragment>
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
-                    <div className="col title">
+                    <div className="col title-miembros">
                         <h2>Directiva</h2>
                         <div className="linea"></div>
                     </div>
@@ -266,7 +299,7 @@ class Miembros extends Component {
                                     <div className="card-miembro-icons">
                                     <a target="_blank" href={this.miembros[0].urlFacebook}><img src={icon_fb}></img></a>
                                     <a target="_blank" href={this.miembros[0].urlInstagram}><img src={icon_ig}></img></a>
-                                    <a target="_blank" href={this.miembros[0].urlTwitter}><img src={icon_tw}></img></a>
+                                    
                                 </div>
                                 </div>
                             </div>
@@ -286,7 +319,7 @@ class Miembros extends Component {
                                             <div className="card-miembro-icons">
                                             <a href={miembro.urlFacebook} target="_blank"><img src={icon_fb}></img></a>
                                             <a href={miembro.urlInstagram} target="_blank"><img src={icon_ig}></img></a>
-                                            <a href={miembro.urlTwitter} target="_blank"><img src={icon_tw}></img></a>
+                                            
                                             </div>
                                         </div>
                                     </div>
@@ -299,7 +332,7 @@ class Miembros extends Component {
                 </div>
 
                 <div className="row">
-                    <div className="col title">
+                    <div className="col title-miembros">
                         <h2>Miembros</h2>
                         <div className="linea"></div>
                     </div>
@@ -327,3 +360,5 @@ class Miembros extends Component {
 }
   
 export default Miembros;
+
+/*<a href={miembro.urlTwitter} target="_blank"><img src={icon_tw}></img></a>*/

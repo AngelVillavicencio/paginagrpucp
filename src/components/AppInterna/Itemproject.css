@@ -1,0 +1,23 @@
+.item-project {
+  width: 300px;
+  height: 400px;
+  border-radius: 15px;
+  background-color: #02243d;
+  padding: 10px;
+  margin: 5px;
+}
+
+.item-project p {
+  text-align: start;
+  color: whitesmoke;
+}
+
+.item-project_title {
+  height: 10%;
+}
+.item-project_description {
+  height: 45%;
+}
+.item-project_yourWork {
+  height: 45%;
+}

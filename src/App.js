@@ -11,31 +11,33 @@ import Contacto from './pages/Contacto.js';
 import Postulacion from './pages/Postulacion.js';
 import Inscripcion from './pages/Inscripcion.js';
 import NotFound from './pages/NotFound.js';
+import Login from './pages/Login.js';
 import Layout from './components/Layout.js';
 import ScrollToTop from './components/ScrollToTop.js'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 const App = () => {
 
-  const [modal, setModal] = useState(false);
-
   return (
     <BrowserRouter>
       <ScrollToTop></ScrollToTop>
-      <Layout>
-        <Switch>
+      
+      <Switch>
+        <Route path="/login" component={Login}></Route>
+        <Layout>
           <Route exact path="/" component={Inicio} />
           <Route path="/proyectos/details/:id" component={ProyectoDetail} />
           <Route exact path="/proyectos" component={Proyectos} />
           <Route path="/actividades/taller/:id" component={Actividad_taller} />
           <Route path="/actividades/evento/:id" component={Actividad_evento} />
-          <Route path="/actividades" component={Actividades} />
+          <Route exact path="/actividades" component={Actividades} />
           <Route path="/miembros" component={Miembros} />
           <Route path="/postular" component={Postulacion} />
           <Route path="/contacto" component={Contacto} />
           <Route path="/inscripcion" component={Inscripcion} />
-          <Route component={NotFound}/>
-        </Switch>
-      </Layout>
+        </Layout> 
+        <Route component={NotFound}/>
+      </Switch>
+      
     </BrowserRouter>
   );
 };

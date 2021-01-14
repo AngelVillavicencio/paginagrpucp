@@ -38,6 +38,8 @@ class Inicio extends Component {
       bottom                : 'auto',
       marginRight           : '-50%',
       transform: 'translate(-50%, -50%)',
+      width: '80%',
+      height: '80%'
     },
     overlay: {
       position: 'fixed',
@@ -45,28 +47,65 @@ class Inicio extends Component {
       left: 0,
       right: 0,
       bottom: 0,
-      backgroundColor:'rgba(255,255,255,1)'
+      backgroundColor:'rgba(255,255,255,0.35)'
     }
   };
 
-
+/*<ReactPlayer url='https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Video_presentacion_GRPUCP_2020.mp4?alt=media&token=e6263c2f-8841-40f0-841a-941013f3b80e'
+                    width='100%'
+                    height='80%' playing={true} controls>
+                  </ReactPlayer>*/
   render() {
     
       return (
         <React.Fragment>
           {
-            this.state.videoPresentacion===true ?(
+            this.state.videoPresentacion === true ? (
+              <React.Fragment>
                 <Modal
                   isOpen={this.state.videoPresentacion}
                   style={this.customStyles}
                   onRequestClose={this.cerrarModal}
                   preventScroll={true}
                 >
-                  <ReactPlayer url='https://firebasestorage.googleapis.com/v0/b/futbolito-1ae33.appspot.com/o/Video_presentacion_GRPUCP_2020.mp4?alt=media&token=e6263c2f-8841-40f0-841a-941013f3b80e'
-                    width='100%'
-                    height='80%' playing={true} controls>
-                  </ReactPlayer>
+
+                <iframe width="100%" height="99%" src="https://www.youtube.com/embed/dWwcziY-gq8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
                 </Modal>
+              <section className="container-mision">
+                  <h2 className="titulo">
+                    Misión 
+                  </h2>
+                  <p className="texto_descripcion">
+                    Generar la investigación y participación de proyectos en alumnos de la universidad y trabajo en conjunto con la universidad.
+                  </p>
+                  <img src={imageMision} className="imagen_container"></img>
+                </section>
+                <section className="container-vision">
+                  <h2 className="titulo">
+                    Visión 
+                  </h2>
+                  <p className="texto_descripcion">
+                    Ser la mejor opción dentro de la PUCP 
+                    para adquirir y/o perfeccionar habilidades técnicas mediante 
+                    la participación en proyectos de robótica y difusión de conocimiento
+                  </p>
+                  <img src={imageVision} className="imagen_container"></img>
+                </section>
+                <h2 className="titulo">
+                  Compromisos 
+                </h2>
+                <section className="container-compromisos container">
+                  <ul>
+                    <li>Hacer proyectos que hagan cambios en la sociedad.</li>
+                    <li>Ganar concursos dentro y fuera de la universidad</li>
+                    <li>Apoyar desde la experiencia a alumnos de ciclos menores.</li>
+                    <li>Incentivar el aprendizaje autónomo.</li>
+                    
+                  </ul>
+                  <Link className="boton-interesado" to="/postular">¿Interesado?</Link>
+                </section>
+              </React.Fragment>
             ) : (
               <>
                   
